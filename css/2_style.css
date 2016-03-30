@@ -1,3 +1,270 @@
-body{
-border: 100px solid grey;
+/* ========================================================================== */
+/* CSS - PORTFOLIO
+/* Copyright 2016, Alexandre PIDAULT
+/* ========================================================================== */
+
+/* FONTS FACES
+   ================================================== */
+@font-face {
+  font-family: 'Conduit-Light';
+  src: url('../fonts/conduit-Light/conduit-Light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/conduit-Light/conduit-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/conduit-Light/conduit-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../font/conduit-Light/conduit-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../font/conduit-Light/conduit-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
+@font-face {
+  font-family: 'Conduit-Bold';
+  src: url('../fonts/conduit-Bold/conduit-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/conduit-Bold/conduit-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/conduit-Bold/conduit-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../font/conduit-Bold/conduit-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../font/conduit-Bold/conduit-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Superclarendon-Black';
+  src: url('../fonts/superclarendon-Black/superclarendon-Black.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/superclarendon-Black/superclarendon-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/superclarendon-Black/superclarendon-Black.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../font/superclarendon-Black/superclarendon-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../font/superclarendon-Black/superclarendon-Black.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+/* BASE RULES
+   ================================================== */
+
+*:focus{
+    outline: none !important;
+}
+*::-webkit-focus-inner{
+    border:none !important;;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+* html .clearfix{
+    height: 1%
+}
+.clearfix{
+    display: block;
+}
+html{
+    font-size: 62.5%;
+    overflow-x:hidden;
+} 
+body, html {
+  height: 100%;
+}
+h1, h2, h3,p{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* ==== LAYOUT / POSITIONEMENT ==== */
+
+.move-right{
+    float: right;
+}
+.move-left{
+    float: left;
+}
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    height: inherit;
+}
+
+
+/* ==== COMPONENT ==== */
+
+.txt-corp{
+    font-family: 'Conduit-Light';
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 27px;
+    letter-spacing: 0.7px;
+}
+.txt-inform{
+    font-family: 'Conduit-Light';
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.7px;
+}
+.txt-annex{
+    
+}
+.txt-white{
+    color: white;
+}
+.txt-grey{
+    color: grey;
+}
+
+
+/* ==== MODULES ==== */
+
+/* NAVBAR */
+
+.navbar{
+    padding-top: 50px;
+    clear: both;
+}
+.navbar-menu li{
+    float: left;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+.navbar-menu li a{
+    font-family: 'Conduit-Light';
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px; 
+}
+
+/* LOGO */
+
+.logo{
+   float: left; 
+}
+.logo-ap{
+    display: block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    background-image: url(../images/logo_ap_white.svg);
+    background-size: 100%;
+}
+.text-ap{
+    display: block;
+    float: left;
+    padding-top: 10px;
+    font-family: 'Conduit-Light';
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+}
+.text-ap .bold{
+    display: block;
+    font-family: 'Conduit-Bold';
+}
+
+/* PREVIEW */
+.preview-content-container{
+    height: 380px;
+    width: 100%;
+    display: block;
+}
+.preview-txt-container{
+    width: 55%;
+    float: left;
+}
+.preview-picture-container{
+    width: 40%;
+    float: right;
+}
+#preview{
+     height: inherit;
+    width: 100%;
+}
+.preview--1{
+    background: #ffba26; /* Old browsers */
+    transition: background .25s ease;
+   -moz-transition:  background .25s ease;
+   -webkit-transition: background .25s ease;
+}
+
+.preview--2{
+    background: #db0f4f; /* Old browsers */
+    transition:  background .25s ease;
+   -moz-transition:  background .25s ease;
+   -webkit-transition:  background .25s ease;;
+}
+.preview--3{
+   
+    background: #e3e2e0; /* Old browsers */
+      transition:  background .25s ease;
+   -moz-transition:  background .25s ease;
+   -webkit-transition:  background .25s ease;
+}
+
+.preview-intro b{
+    font-family: 'Conduit-Bold';
+}
+.prewiew-picture{
+    width: 400px;
+    height: 480px;
+    position: relative;
+    float: right;
+    right: -27px;
+    margin-top: -45px;
+    background-image: url(../images/img_preview_getsporty.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.preview-project-container{
+    margin-top: 40px;
+}
+.preview-project-container .project-name,
+.preview-project-container .txt-inform{
+    margin-bottom: 25px;
+}
+.preview-project{
+    margin-bottom: 20px;
+}
+
+.project-number,
+.project-quote,
+.project-name{
+    color: rgba(0, 0, 0, 0.16);
+    transition: color .25s ease-in-out;
+    -moz-transition: color .25s ease-in-out;
+    -webkit-transition: color .25s ease-in-out;
+}
+.preview-project:hover .project-number,
+.preview-project:hover .project-quote,
+.preview-project:hover .project-name{
+    cursor: pointer;
+    color: white;
+}
+.preview-project.is-active .project-number,
+.preview-project.is-active .project-quote,
+.preview-project.is-active .project-name{
+    cursor: pointer;
+    color: white;
+}
+.project-number{
+    float: left;
+    padding-bottom: 20px;
+    padding-top: 18px;
+    padding-right: 25px;
+    font-family: 'Conduit-Light';
+    font-size: 12px;
+}
+.project-quote{
+    padding-bottom: 10px;
+    font-family: 'Superclarendon-Black';
+    font-size: 33px;
+    letter-spacing: -1.5px;
+}
+.project-name{
+    font-family: 'Conduit-Light';
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.7px;
+}
+
+
