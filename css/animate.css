@@ -2870,8 +2870,8 @@
 @keyframes zoomInUp {
   from {
     opacity: 0;
-    -webkit-transform: scale3d(.1, .1, .1) translate3d(0, 1000px, 0);
-    transform: scale3d(.1, .1, .1) translate3d(0, 1000px, 0);
+    -webkit-transform: scale3d(.3, .3, .3) translate3d(0, 1000px, 0);
+    transform: scale3d(.3, .3, .3) translate3d(0, 1000px, 0);
     -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
     animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
   }
@@ -2888,6 +2888,7 @@
 .zoomInUp {
   -webkit-animation-name: zoomInUp;
   animation-name: zoomInUp;
+
 }
 
 @-webkit-keyframes zoomOut {
