@@ -1004,9 +1004,6 @@ section.branding{
 
 /* SECTION : THEME */
 
-section.themeMosaic{
-    margin-top: 200px;
-}
 .theme-container{
     width: 100%;
     height: 390px;
@@ -1050,7 +1047,7 @@ section.themeMosaic{
 
 
 section.appScreen--1{
-    margin-top: 300px;
+    margin-top: 150px;
 }
 
 .appScreen--1 .txt-headLine--first{
@@ -1704,6 +1701,9 @@ section.exploringDetail .txt-headLine--first:after{
    position: relative;
    top: 2px;
 }
+.nextProject-container{
+    width: 37% !important;
+}
 .nextProject-text{
    font-family: 'Conduit-Light';
    text-transform: uppercase;
@@ -1830,7 +1830,7 @@ section.exploringDetail .txt-headLine--first:after{
     left: 0px;
     right: 0px;
     width: 100%;
-    background: #F0871B;
+    background: rgba(240, 135, 27, 0.32);
 }
 .reserved-txt{
     font-family: 'Conduit-Light';
