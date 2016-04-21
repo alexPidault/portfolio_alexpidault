@@ -76,6 +76,9 @@ a {
 }
 
 /* ==== LAYOUT / POSITIONEMENT ==== */
+.holder{
+    height: 100%;
+}
 .move-right {
     float: right;
 }
@@ -134,6 +137,7 @@ a {
     font-size: 14px;
     font-weight: 100;
     line-height: 25px;
+    letter-spacing: 0.3px;
 }
 
 .txt-inform-important {
@@ -199,6 +203,13 @@ a {
     font-size: 70px;
     letter-spacing: -1px;
 }
+.txt-superClarendon{
+    font-family: 'Superclarendon-Black';
+    font-size: 30px;
+    letter-spacing: -1px;
+    padding-bottom: 5px;
+}
+
 @media  screen and (min-width: 1440px) {
     .txt-headLine{
         font-size: 85px;
@@ -240,6 +251,12 @@ a {
 .txt-white {
     color: #fff;
 }
+.txt-black{
+    color: #464E5C;
+}
+.txt-black-bright{
+    color: #999FB2;
+}
 .txt-azure{
     color: #979FCD;
 }
@@ -271,22 +288,38 @@ a {
     z-index: 1000;
     text-align: center;
 }
-.loader--getsporty {
-   background: #FCA225;
+.loaderSquare-container {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
 }
-.loader--keolitv {
-   background: #db0f4f;
-}
-.loader-img {
-    width: 50px;
-    height: 45px;
-    background-image: url(../images/img_loader.gif);
+.loader-logo {
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-image: url(../images/loader--logo.svg);
     background-size: 90%;
     margin: 0 auto;
     position: relative;
-    top: 300px;
+    top: -80px;
+    left: 3px;
+}
+.loader-logo--black {
+    background-image: url(../images/loader--logo-black.svg);
 }
 
+.path-loader {
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: dash 10s linear forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
 
 
 /* NAVBAR */
@@ -308,6 +341,7 @@ a {
     float: left;
     margin-left: 50px;
     padding-top: 20px;
+    cursor: pointer;
 }
 
 .navbar-menu li a {
@@ -316,6 +350,9 @@ a {
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 2px;
+}
+#about.navbar-menu li a {
+    color: #464E5C;
 }
 /* (1680x1050) WSXGA+ Display */
 @media  screen and (min-width: 1440px) {
@@ -356,6 +393,9 @@ a {
     background-image: url(../images/logo_ap_white.svg);
     background-size: 100%;
 }
+.logo-ap--black {
+    background-image: url(../images/logo_ap_black.svg);
+}
 
 .text-ap {
     display: block;
@@ -367,6 +407,9 @@ a {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #fff;
+}
+.txt-black.text-ap {
+    color:#464E5C;
 }
 
 .text-ap .bold {
@@ -973,17 +1016,183 @@ a {
 
 
 
+/* ABOUT PAGE  */
+.about-wrapper{
+    height: 100%;
+    width: 100%;
+    background: #faFAFA;
+    overflow-y: hidden;
+}
+.stain{
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.stain.is-visible{
+    display: block;
+}
+.stain--blue{
+    background-image: url("../images/stains/stain-blue.png");
+    top: 400px;
+    left: -20px;
+}
+.stain--green{
+    background-image: url("../images/stains/stain-green.png");
+    top: 0px;
+    width: 200px;
+    height: 135px;
+    left: 30%;
+}
+.stain--yellow{
+    background-image: url("../images/stains/stain-yellow.png");
+    width: 121px;
+    top: 120px;
+    left: 40px;
+}
+.stain--violet{
+    background-image: url("../images/stains/stain-violet.png");
+    bottom: 0px;
+    left: 400px;
+    height: 60px;
+}
+.stain--red{
+    background-image: url("../images/stains/stain-red.png");
+    width: 124px;
+    right: 220px;
+    bottom: 40px;
+}
+.about-container{
+    width: 100%;
+    height: 320px;
+    margin-bottom: 0px;
+}
+.about-container .content--left{
+    width:50%;
+}
+.about-men{
+    position: absolute;
+    bottom: 0px;
+    right: -20%;
+    width: 650px;
+    height: 520px;
+    background-image: url(../images/men.png);
+    background-size: cover;
+    background-position-y: -30px;
+    background-repeat: no-repeat;
+    z-index: 4;
+}
+
+.about-headline{
+    font-size: 42px;
+    font-family: 'Superclarendon-Black';
+    padding-bottom: 20px;
+}
+.about-container .txt-corp-important{
+    margin-bottom: 30px;
+}
+.contact-container{
+    padding: 40px;    width: calc(100% - 80px);
+    background: white;
+    position: relative;
+}
 
 
 
 
+.whiteOverlay{
+    display: none;
+    position: fixed;
+    z-index: 1999;  
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: rgba(255, 255, 255, 0.86);
+}
 
-
-
-
-
-
-
-
+.contactForm{
+    display: none;
+    opacity: 0;
+    position: fixed;
+    z-index: 2000;
+    width: 450px;
+    height: 420px;
+    padding: 50px;
+    padding-top: 50px;
+    overflow: hidden;
+    background: white;
+    margin: 0 auto;
+    left:0;
+    right:0;
+    box-shadow: 0px 0px 50px rgba(63, 76, 129, 0.17);
+    border-radius: 4px;
+    border: 1px solid #E7E7E7;
+    text-align: center;
+}
+.contactForm-list{
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: left;
+}
+.contactForm-field{
+    padding: 5px 0px;
+    line-height:30px;
+}
+::-webkit-input-placeholder {
+    color: #464E5C;
+    font-size:12px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-family: 'Conduit-Light';
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #464E5C;
+    font-size:14px;
+    text-transform:uppercase;
+    letter-spacing:1.5px;
+    font-family: 'Conduit-Light';
+}
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #464E5C;
+    font-size:14px;
+    text-transform:uppercase;
+    letter-spacing:1.5px;
+    font-family: 'Conduit-Light';  
+}
+:-ms-input-placeholder {  
+    color: #464E5C;
+    font-size:14px;
+    text-transform:uppercase;
+    letter-spacing:1.5px;
+    font-family: 'Conduit-Light';
+}
+.contactForm-field input{
+    padding: 15px;
+    width: calc(100% - 40px);
+    border: 1px solid #CBC7D5;
+}
+.contactForm-field textarea{
+    padding: 15px;
+    height:100px;
+    width: calc(100% - 40px);
+    border: 1px solid #CBC7D5;
+    resize: none;
+}
+.contactForm-submitButton{
+    width: calc(100% - 8px);
+    padding: 20px;
+    font-size:14px;
+    text-transform:uppercase;
+    letter-spacing:1.5px;
+    font-family: 'Conduit-Light';
+    background: #464E5C;
+    border: none;
+    color: white;
+}
 
 
