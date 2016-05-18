@@ -1071,7 +1071,7 @@ section.exploringDetail .txt-headLine--first:after{
 
 #keoliTv.nextProject-title-container:hover,
 #keoliTv.nextProject-title-container:hover:after{
-    background: #db0f4f;
+    background: #E27C12;
     transition: background .5s ease-in-out;
     -moz-transition: background .5s ease-in-out;
     -webkit-transition: background .5s ease-in-out;
@@ -1086,21 +1086,17 @@ section.exploringDetail .txt-headLine--first:after{
    background-size: contain;
    position: absolute;
    z-index: 5;
-    transition: right .5s ease-in-out;
-    -moz-transition: right .5s ease-in-out;
-    -webkit-transition: right .5s ease-in-out;
+    transition: right .3s ease-in-out;
+    -moz-transition: right .3s ease-in-out;
+    -webkit-transition: right .3s ease-in-out;
     -webkit-transition-delay: .1s;
 }
 #keoliTv.nextProject-title-container .arrow{
     top: 25px;
     right: -65px;
 }
-#keoliTv.nextProject-title-container:hover .arrow,
-#keoliTv.nextProject-title-container:hover:after .arrow{
-    right: -85px;
-    transition: right .3s ease-in-out;
-    -moz-transition: right .3s ease-in-out;
-    -webkit-transition: right .3s ease-in-out;
-    -webkit-transition-delay: .3s ease-in-out;
+#keoliTv.nextProject-title-container:hover .arrow{
+    right: -75px;
 }
+
 

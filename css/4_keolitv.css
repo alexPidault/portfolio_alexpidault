@@ -4,27 +4,26 @@
 /* ========================================================================== */
 
 
-.project-picture--2 {
+.project-picture--1 {
     display: block;
-    width: 669px;
+    width: 450px;
     height: 685px;
     margin: auto;
     left: 7%;
     background-image: url(../images/img_project_keolitv.png);
-    background-size: 80%;
+    background-size: 450px;
     background-repeat: no-repeat;
     position: relative;
     top: 50px;
-    background-attachment: inherit;
 }
 @media  screen and (min-width: 1440px) {
-    .project-picture--2 {
+    .project-picture--1 {
         width: 1069px;
         height: 1000px;
         left: 15%;
     }
 }
-.project-picture--2:before{
+.project-picture--1:before{
     content: "";
     display: block;
     position: absolute;
@@ -37,13 +36,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db0f4f', end
 
 
 }
-.project-picture--2.is-visible:before{
+.project-picture--1.is-visible:before{
     height:0px;
     -moz-transition: all 0.8s cubic-bezier(0.18,0.89,0.48,1.02);
     -webkit-transition: all 0.8s cubic-bezier(0.18,0.89,0.48,1.02);
     transition: all 0.8s cubic-bezier(0.18,0.89,0.48,1.02);
 }
-.project-picture--2.is-visible{
+.project-picture--1.is-visible{
     top: 0px;
     -moz-transition: all 1.8s cubic-bezier(0.18,0.89,0.48,1.02);
     -webkit-transition: all 1.8s cubic-bezier(0.18,0.89,0.48,1.02);
@@ -99,9 +98,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db0f4f', end
 }
 .blueBackground {
     background: #3d499b;
-     background: url(../images/keolitv--2/living-room.png) no-repeat 50% 3700px, url(../images/keolitv--2/family.png) no-repeat 50% 50px,-moz-linear-gradient(top, rgba(41,72,118,1) 0%,rgba(10,42,93,1) 100%);
-    background: url(../images/keolitv--2/living-room.png) no-repeat 50% 3700px, url(../images/keolitv--2/family.png) no-repeat 50% 50px,-webkit-linear-gradient(top, rgba(41,72,118,1) 0%,rgba(10,42,93,1) 100%);
-    background: url(../images/keolitv--2/living-room.png) no-repeat 50% 3700px, url(../images/keolitv--2/family.png) no-repeat 50% 50px,linear-gradient(top, rgba(41,72,118,1) 0%,rgba(10,42,93,1) 100%);
+     background: url(../images/keolitv--2/living-room.png) no-repeat 50% 3700px, url(../images/keolitv--2/family.png) no-repeat 50% -150px,-moz-linear-gradient(top, rgba(41,72,118,1) 0%,rgba(10,42,93,1) 100%);
+    background: url(../images/keolitv--2/living-room.png) no-repeat 50% 3700px, url(../images/keolitv--2/family.png) no-repeat 50% -150px,-webkit-linear-gradient(top, rgba(41,72,118,1) 0%,rgba(10,42,93,1) 100%);
+    background: url(../images/keolitv--2/living-room.png) no-repeat 50% 3700px, url(../images/keolitv--2/family.png) no-repeat 50% -150px,linear-gradient(top, rgba(41,72,118,1) 0%,rgba(10,42,93,1) 100%);
     
     
     
@@ -123,7 +122,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db0f4f', end
 /* SECTION : PRESCREEN */
 
 .preScreen {
-    margin-top: 130px;
     height: inherit;
 }
 .preScreen-container {
@@ -613,7 +611,7 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
 
 #toutUnCafe.nextProject-title-container:hover,
 #toutUnCafe.nextProject-title-container:hover:after{
-    background: #255498;
+    background: #2E5895;
     transition: background .5s ease-in-out;
     -moz-transition: background .5s ease-in-out;
     -webkit-transition: background .5s ease-in-out;
@@ -628,21 +626,17 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
    background-size: contain;
    position: absolute;
    z-index: 5;
-    transition: right .5s ease-in-out;
-    -moz-transition: right .5s ease-in-out;
-    -webkit-transition: right .5s ease-in-out;
+    transition: right .3s ease-in-out;
+    -moz-transition: right .3s ease-in-out;
+    -webkit-transition: right .3s ease-in-out;
     -webkit-transition-delay: .1s;
 }
 #toutUnCafe.nextProject-title-container .arrow{
     top: 25px;
     right: -65px;
 }
-#toutUnCafe.nextProject-title-container:hover .arrow,
-#toutUnCafe.nextProject-title-container:hover:after .arrow{
-    right: -85px;
-    transition: right .3s ease-in-out;
-    -moz-transition: right .3s ease-in-out;
-    -webkit-transition: right .3s ease-in-out;
-    -webkit-transition-delay: .3s ease-in-out;
+#toutUnCafe.nextProject-title-container:hover .arrow{
+    right: -75px;
+
 }
 

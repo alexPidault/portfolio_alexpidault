@@ -202,12 +202,18 @@ a {
     font-family: 'Superclarendon-Black';
     font-size: 70px;
     letter-spacing: -1px;
+    width: 621px;
+    margin: auto;
+    text-align: center;
 }
 .txt-superClarendon{
     font-family: 'Superclarendon-Black';
-    font-size: 30px;
+    font-size: 35px;
     letter-spacing: -1px;
-    padding-bottom: 5px;
+    padding-bottom: 8px;
+}
+.txt-middle{
+    text-align: center;
 }
 
 @media  screen and (min-width: 1440px) {
@@ -254,6 +260,9 @@ a {
 .txt-black{
     color: #464E5C;
 }
+.txt-darkBlack{
+    color: #3A3836;
+}
 .txt-black-bright{
     color: #999FB2;
 }
@@ -262,6 +271,9 @@ a {
 }
 .txt-grey {
     color: #9A97B9;
+}
+.txt-darkGrey{
+    color: #948C8C;
 }
 .txt-darkBlue{
     color: #3A2D9B;
@@ -326,7 +338,6 @@ a {
 .navbar {
     padding-top: 50px;
     clear: both;
-    opacity: 1;
     transition: opacity .5s ease-in-out;
     -moz-transition: opacity .5s ease-in-out;
     -webkit-transition: opacity .5s ease-in-out;
@@ -437,7 +448,7 @@ a {
 }
 
 .preview--3 {
-    background: #CCC7C7;
+    background: #BFBFBF;
     transition: background .5s ease-in-out;
     -moz-transition: background .5s ease-in-out;
     -webkit-transition: background .5s ease-in-out;
@@ -461,13 +472,14 @@ a {
 }
 .prewiew-picture--1 {
     display: none;
-    width: 420px;
-    height: 437px;
+    width: 430px;
+    height: 459px;
     position: relative;
-    right: -10px;
-    top: 0px;
+    float: left;
+    right: -27px;
+    top: 15px;
     background-image: url(../images/img_preview_getsporty.png);
-    background-size: 95%;
+    background-size: 90%;
     background-repeat: no-repeat;
 }
 .prewiew-picture--2 {
@@ -483,14 +495,13 @@ a {
 }
 .prewiew-picture--3 {
     display: none;
-    width: 400px;
-    height: 480px;
+    width: 380px;
+    height: 450px;
     position: relative;
-    float: left;
-    right: -27px;
-    top: 30px;
+    right: -35px;
+    top: 20px;
     background-image: url(../images/img_preview_toutuncafe.png);
-    background-size: 90%;
+    background-size: 95%;
     background-repeat: no-repeat;
 }
 @media  screen and (min-width: 1440px) {
@@ -498,6 +509,21 @@ a {
     .prewiew-picture--2 {width: 510px;height: 600px;right: 5px;top: 3px;}
     .prewiew-picture--3 {width: 520px;height: 600px;right: 60px;}
 }
+.blockPage{
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: 0;
+    position: fixed;
+    z-index: 120;
+}
+
+
+
+
+ 
+
+
 
 .pict-active {
     display: block;
@@ -643,10 +669,18 @@ a {
     height: 700px;
     background: #FFF;
     position: relative;
-    box-shadow: 0 -3px 20px rgba(0,0,0,0.08);
     margin-bottom: -300px;
+    transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+    box-shadow: 0px -15px 29px rgba(0, 0, 0, 0.02);
 }
-
+.intro.is-shadow{
+    transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+    box-shadow: 0px -15px 29px rgba(0, 0, 0, 0.07);
+}
 .intro--moveUp {
     -webkit-animation: introMoveUp 1.1s cubic-bezier(0.18,0.89,0.48,1.02);
     -moz-animation: introMoveUp 1.1s cubic-bezier(0.18,0.89,0.48,1.02);
@@ -856,6 +890,9 @@ a {
 .darkBlue.content-title:before{
      background:#3A2D9B;
 }
+.darkBlack.content-title:before{
+     background:black;
+}
 .content-description{
     padding-left: 130px;
 }
@@ -881,7 +918,7 @@ a {
 }
 .footer-txt{
     font-family: 'Superclarendon-Black';
-    font-size: 24px;
+    font-size: 23px;
     letter-spacing: -0.3px;
     line-height: 33px;
     margin-bottom: 5px;
@@ -912,6 +949,25 @@ a {
 }
 .social-icon--twitter{
    background-image: url(../images/icon--twitter.png);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   position: relative;
+   top: 2px;
+}
+.social-icon--dribble-grey{
+   background-image: url(../images/icon--dribble-grey.png);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   position: relative;
+   top: 1px;
+}
+.social-icon--linkedin-grey{
+   background-image: url(../images/icon--linkedin-grey.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.social-icon--twitter-grey{
+   background-image: url(../images/icon--twitter-grey.png);
    background-size: 100%;
    background-repeat: no-repeat;
    position: relative;
@@ -1020,7 +1076,7 @@ a {
 .about-wrapper{
     height: 100%;
     width: 100%;
-    background: #faFAFA;
+    background: #F5F5F5;
     overflow-y: hidden;
 }
 .stain{
@@ -1072,15 +1128,14 @@ a {
 .about-container .content--left{
     width:50%;
 }
-.about-men{
+.picture-alex{
     position: absolute;
-    bottom: 0px;
-    right: -20%;
-    width: 650px;
-    height: 520px;
+    bottom: -32px;
+    right: 36px;
+    width: 135px;
+    height: 152px;
     background-image: url(../images/men.png);
     background-size: cover;
-    background-position-y: -30px;
     background-repeat: no-repeat;
     z-index: 4;
 }
@@ -1094,7 +1149,9 @@ a {
     margin-bottom: 30px;
 }
 .contact-container{
-    padding: 40px;    width: calc(100% - 80px);
+    padding: 40px;
+    padding-top: 30px;
+    width: calc(100% - 80px);
     background: white;
     position: relative;
 }
@@ -1105,12 +1162,12 @@ a {
 .whiteOverlay{
     display: none;
     position: fixed;
-    z-index: 1999;  
+    z-index: 1999;
     right: 0px;
     left: 0px;
     top: 0px;
     bottom: 0px;
-    background: rgba(255, 255, 255, 0.86);
+    background: rgba(255, 255, 255, 0.95);
 }
 
 .contactForm{
@@ -1118,18 +1175,14 @@ a {
     opacity: 0;
     position: fixed;
     z-index: 2000;
-    width: 450px;
+    width: 500px;
     height: 420px;
     padding: 50px;
     padding-top: 50px;
     overflow: hidden;
-    background: white;
     margin: 0 auto;
     left:0;
     right:0;
-    box-shadow: 0px 0px 50px rgba(63, 76, 129, 0.17);
-    border-radius: 4px;
-    border: 1px solid #E7E7E7;
     text-align: center;
 }
 .contactForm-list{
@@ -1196,3 +1249,9 @@ a {
 }
 
 
+
+
+
+.scroll.not-allowed{
+    overflow: hidden;
+}
