@@ -53,8 +53,8 @@ background: linear-gradient(to bottom,  rgba(191,191,191,1) 0%,rgba(191,191,191,
 
 
 
-.numberProject--1 {
-    background-image: url(../images/number-1.jpg);
+.numberProject--3{
+    background-image: url(../images/number-3.png);
 }
 .introResume-container {
     float: right;
@@ -456,16 +456,17 @@ section.branding{
     text-align: center;
     background: url(../images/toutuncafe--3/expoInfo--paint.png) no-repeat 114% 29px, #CAAD3E;
     background-size: 70%;
-    left: 40px;
+    left: 50px;
     top: -100px;
 }
 .expoInfo--artist{
-    width: 170px;
-    padding: 40px 0px;
+    width: 160px;
+    padding: 37px 0px;
     text-align: center;
     background: url(../images/toutuncafe--3/expoInfo--artist.png) no-repeat 114% 29px, #151518;
     background-size: 70%;
-    left: 200px;
+    left: 340px;
+    z-index: 100;
     top: 100px;
 }
 .expoInfo-number{
@@ -473,15 +474,6 @@ section.branding{
     font-size: 50px;
     letter-spacing: -1px;
     padding-bottom: 10px;
-}
-.expoDeco{
-    width: 180px;
-    height: 300px;
-    position: absolute;
-    border: 10px solid #D5D5D5;
-    border-radius: 4px;
-    left: 450px;
-    top: -100px;
 }
 
 
@@ -500,12 +492,14 @@ section.branding{
     background: white;
 }
 
-
+#artist-wrapper{
+    margin-top: -170px;
+}
 .websiteScreen-bioArtist{
     width: 970px;
     height: 800px;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 80px;
     position: relative;
     left: -20px;
     background-image: url(../images/toutuncafe--3/screen--artiste.png);
@@ -546,28 +540,29 @@ section.branding{
     width: 350px;
     height: 300px;
     background-image: url(../images/toutuncafe--3/pictureMedia--4.png);
-    top: 100px;
-    left: 239px;
+    top: 69px;
+    left: 190px;
 }
 .mediaPicture--3{
     width: 280px;
     height: 234px;
     background-image: url(../images/toutuncafe--3/pictureMedia--3.png);
-    bottom: 138px;
-    left: 150px;
+    bottom: 181px;
+    left: 96px;
 }
 .mediaPicture--2{
     width: 210px;
     height: 280px;
     background-image: url(../images/toutuncafe--3/pictureMedia--2.png);
-    bottom: -20px;
-    left: 89px;
+    bottom: -7px;
+    left: 66px;
 }
 .mediaPicture--1{
-    width: 190px;
-    height: 160px;
+    width: 214px;
+    height: 165px;
     background-image: url(../images/toutuncafe--3/pictureMedia--1.png);
-    bottom: 0px;
+    bottom: 1px;
+    left: -3px;
     /* position: relative; */
 }
 
@@ -677,7 +672,7 @@ section.branding{
 
 
 .footer-bottom{
-    background: #0F346B;
+    background: #202121;
 }
 
 .arrow-up--blue{
@@ -691,7 +686,7 @@ section.branding{
 .nextProject-title-container{
     position: relative;
     width: 350px;
-    height: 65px;
+    height: 80px;
     border-radius: 2px;
     margin-top: 20px;
     padding-top: 10px;
@@ -705,12 +700,12 @@ section.branding{
     -webkit-transition-delay: .1s;
 }
 #toutUnCafe.nextProject-title-container{
-    background: #1C4889;
+    background: #2C2C2D;
     margin-top: 20px;
     padding-top: 10px;
     top: 30px;
     left: -47px;
-    width: 264px;
+    width: 259px;
     padding-right: 65px;
     top: background .5s ease-in-out;
     -moz-transition: background .5s ease-in-out;
@@ -720,7 +715,7 @@ section.branding{
 
 #toutUnCafe.nextProject-title-container:hover,
 #toutUnCafe.nextProject-title-container:hover:after{
-    background: #255498;
+    background: #424244;
     transition: background .5s ease-in-out;
     -moz-transition: background .5s ease-in-out;
     -webkit-transition: background .5s ease-in-out;
@@ -735,22 +730,17 @@ section.branding{
    background-size: contain;
    position: absolute;
    z-index: 5;
-    transition: right .5s ease-in-out;
-    -moz-transition: right .5s ease-in-out;
-    -webkit-transition: right .5s ease-in-out;
+    transition: right .3s ease-in-out;
+    -moz-transition: right .3s ease-in-out;
+    -webkit-transition: right .3s ease-in-out;
     -webkit-transition-delay: .1s;
 }
 #toutUnCafe.nextProject-title-container .arrow{
     top: 25px;
     right: -65px;
 }
-#toutUnCafe.nextProject-title-container:hover .arrow,
-#toutUnCafe.nextProject-title-container:hover:after .arrow{
-    right: -85px;
-    transition: right .3s ease-in-out;
-    -moz-transition: right .3s ease-in-out;
-    -webkit-transition: right .3s ease-in-out;
-    -webkit-transition-delay: .3s ease-in-out;
+#toutUnCafe.nextProject-title-container:hover .arrow{
+    right: -75px;
 }
 
 
