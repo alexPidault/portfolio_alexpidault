@@ -10,14 +10,18 @@ $(document).ready(function() {
 		newLocation = this.href;
 		color = $(this).data("color");
 		$('body').css('background-color', color );
-		$('.holder').animate({
-            opacity: "0"
-        }, 500);
-		// Delays action
+		  
+        
+        $('.holder').animate({
+                opacity: "0"
+        }, 300);
+      
+        // Delays action
 		window.setTimeout(function() {
 		    // Redirects to new destination
 				window.location = newLocation;
-		}, 800);
+		}, 300);
+        
 	});
     
     // POSITION LOADER 
@@ -162,6 +166,7 @@ $(document).ready(function() {
         }, 300);
          setTimeout(function(){
             $(".contactForm").css("display", "none");
+             $(".contactForm").css("top", "0px");
         }, 1000);
         
 	});

@@ -1,7 +1,7 @@
 $(document).ready(function() {
     
 
-    // SMOOTH PAGE TRANSITION
+  // SMOOTH PAGE TRANSITION
 	$('.holder').toggleClass("visible");
 	$('a.link').click(function(event) {
 		// Over-rides the link
@@ -10,14 +10,18 @@ $(document).ready(function() {
 		newLocation = this.href;
 		color = $(this).data("color");
 		$('body').css('background-color', color );
-		$('.holder').animate({
-            opacity: "0"
+		  
+        
+        $('.holder').animate({
+                opacity: "0"
         }, 300);
-		// Delays action
+      
+        // Delays action
 		window.setTimeout(function() {
 		    // Redirects to new destination
 				window.location = newLocation;
-		}, 800);
+		}, 300);
+        
 	});
     
     // POSITION LOADER 
@@ -187,7 +191,7 @@ $(document).ready(function() {
     
     
     
-    /////// CONTACT FORM POSITION + ANIMATION TO MAKE IT VISIBLE ////////
+     /////// CONTACT FORM POSITION + ANIMATION TO MAKE IT VISIBLE ////////
     function positionTopContactForm(e) {
         var height_Window = $(window).height();   
         var height_ContactForm = $('.contactForm').outerHeight();
@@ -216,6 +220,7 @@ $(document).ready(function() {
         }, 300);
          setTimeout(function(){
             $(".contactForm").css("display", "none");
+             $(".contactForm").css("top", "0px");
         }, 1000);
         
 	});

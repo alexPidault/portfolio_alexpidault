@@ -181,6 +181,7 @@ $(document).ready(function() {
         }, 300);
          setTimeout(function(){
             $(".contactForm").css("display", "none");
+             $(".contactForm").css("top", "0px");
         }, 1000);
         
 	});
