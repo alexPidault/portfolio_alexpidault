@@ -133,7 +133,7 @@ $(document).ready(function() {
     });
     
     
-    /////// CONTACT FORM POSITION + ANIMATION TO MAKE IT VISIBLE ////////
+     /////// CONTACT FORM POSITION + ANIMATION TO MAKE IT VISIBLE ////////
     function positionTopContactForm(e) {
         var height_Window = $(window).height();   
         var height_ContactForm = $('.contactForm').outerHeight();
@@ -158,8 +158,7 @@ $(document).ready(function() {
         
         $(this).fadeOut( "slow" );
         $(".contactForm").animate({
-            opacity: "0",
-            top: -100
+                opacity: "0"
         }, 300);
          setTimeout(function(){
             $(".contactForm").css("display", "none");

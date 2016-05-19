@@ -183,14 +183,14 @@ $(document).ready(function() {
     .animate("#preScreen-galery", {delay: 0,duration: 2000,property: "top",start: 0,end: -500})
     .animate("#headlineDiscover", {delay: 0,duration: 1300, property: "top",start: 300,end: -500})
     .animate("#screenHome", {delay: 0,duration: 2300, property: "top",start: 300,end: -500})
-    .animate("#screenExpo", {delay: -200,duration: 2300, property: "top",start:0,end: -500})
-    .animate("#squareYellow", {delay: 0,duration: 2300, property: "top",start: 300,end: -500})
-    .animate("#squareBlack", {delay: 0,duration: 2300, property: "top",start: 300,end: -500})
+    .animate("#screenExpo", {delay: -200,duration: 1900, property: "top",start:0,end: -500})
+    .animate("#squareYellow", {delay: 0,duration: 2500, property: "top",start:-100,end: -500})
+    .animate("#squareBlack", {delay: 80,duration:1300, property: "top",start: 200,end: -500})
     .animate("#preScreen-login", {delay: 0,duration: 1300, property: "top",start: 300,end: -500});
     
     
     
-    /////// CONTACT FORM POSITION + ANIMATION TO MAKE IT VISIBLE ////////
+     /////// CONTACT FORM POSITION + ANIMATION TO MAKE IT VISIBLE ////////
     function positionTopContactForm(e) {
         var height_Window = $(window).height();   
         var height_ContactForm = $('.contactForm').outerHeight();
@@ -214,12 +214,9 @@ $(document).ready(function() {
     $('.whiteOverlay').click(function() {
         
         $(this).fadeOut( "slow" );
-        setTimeout(function(){
-            $(".contactForm").animate({
-                opacity: "0",
-                top: -300
-            }, 300);
-        }, 600);
+        $(".contactForm").animate({
+                opacity: "0"
+        }, 300);
          setTimeout(function(){
             $(".contactForm").css("display", "none");
         }, 1000);

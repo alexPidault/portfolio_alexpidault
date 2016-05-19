@@ -152,7 +152,7 @@ $(document).ready(function() {
     });
     
     
-    /////// CONTACT FORM POSITION + ANIMATION TO MAKE IT VISIBLE ////////
+     /////// CONTACT FORM POSITION + ANIMATION TO MAKE IT VISIBLE ////////
     function positionTopContactForm(e) {
         var height_Window = $(window).height();   
         var height_ContactForm = $('.contactForm').outerHeight();
@@ -176,12 +176,9 @@ $(document).ready(function() {
     $('.whiteOverlay').click(function() {
         
         $(this).fadeOut( "slow" );
-        setTimeout(function(){
-            $(".contactForm").animate({
-                opacity: "0",
-                top: -300
-            }, 300);
-        }, 600);
+        $(".contactForm").animate({
+                opacity: "0"
+        }, 300);
          setTimeout(function(){
             $(".contactForm").css("display", "none");
         }, 1000);
