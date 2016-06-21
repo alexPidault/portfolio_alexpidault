@@ -147,7 +147,74 @@ $(document).ready(function() {
     });
     
    
+     $(window).scroll(function() {
+        var positionWindow = $(window).scrollTop();
+        var section_Intro = $("#section_intro").offset().top - 50;
+        var section_brand = $("#section_brand").offset().top - 150;
+         
+        var section_appOverview = $("#section_appOverview").offset().top - 200;
+        var whitebackground = $("#whitebackground").offset().top - 150;
+        var blackBackground = $("#blackBackground").offset().top - 150;
+        var blackBackground2 = $("#blackBackground2").offset().top - 150;
+           
+        if (positionWindow < section_Intro - 100) {
 
+        }else {// your != 0 case here
+        }
+        if (positionWindow > section_Intro && positionWindow < section_brand ) {
+ 
+            $(".text-change").removeClass("active");
+            $(".text-intro").addClass("active");
+            
+            if(positionWindow > blackBackground){
+                    
+                $(".sectionTitle-container").removeClass("is-black");
+                $(".sectionTitle-container").addClass("is-white");
+            }
+            if(positionWindow < blackBackground){
+                $(".sectionTitle-container").removeClass("is-white");
+                $(".sectionTitle-container").addClass("is-black");
+            }
+            
+            
+        }else {// your != 0 case here
+        }
+        if (positionWindow > section_brand && positionWindow < section_appOverview) {
+     
+                $(".text-intro").removeClass("active");
+                $(".text-change").removeClass("active");
+                $(".text-change2").addClass("active");
+    
+        }else {// your != 0 case here
+        }
+        if (positionWindow > section_appOverview) {
+     
+                $(".text-change").removeClass("active");
+                $(".text-change3").addClass("active");
+            
+                if(positionWindow > whitebackground){
+                    
+                   $(".sectionTitle-container").removeClass("is-white");
+                    $(".sectionTitle-container").addClass("is-black");
+                }
+                else{
+                    $(".sectionTitle-container").removeClass("is-black");
+                    $(".sectionTitle-container").addClass("is-white");
+                }
+    
+        }else {// your != 0 case here
+        }
+        if (positionWindow > blackBackground2) {
+            $(".sectionTitle-container").css("opacity", "0");
+        }else{
+             $(".sectionTitle-container").css("opacity", "1");
+        }
+        
+    
+    });
+    
+    
+        
     
     
     setTimeout(function(){
@@ -181,15 +248,14 @@ $(document).ready(function() {
     
     var scrollorama = $.scrollorama({ blocks:'.scrollblock' });
     scrollorama
-    .animate("#project-picture", {delay: -100, duration: 1500, property: "top", start:50, end: 800})
-    .animate("#p1_parallax1_1", {delay: -400, duration: 2700, property: "top", start: 0, end: -800})
-    .animate("#p1_parallax1_2", {delay: 0,duration: 2700,property: "top",start: -200,end: -1e3})
-    .animate("#preScreen-galery", {delay: 0,duration: 2000,property: "top",start: 0,end: -500})
+
+    .animate("#p1_parallax1_1", {delay: -300, duration: 2700, property: "top", start: 0, end: -800})
+    .animate("#preScreen-galery", {delay: 0,duration: 2000,property: "top",start: 300,end: -500})
     .animate("#headlineDiscover", {delay: 0,duration: 1300, property: "top",start: 300,end: -500})
     .animate("#screenHome", {delay: 0,duration: 2300, property: "top",start: 300,end: -500})
     .animate("#screenExpo", {delay: -200,duration: 1900, property: "top",start:0,end: -500})
     .animate("#squareYellow", {delay: 0,duration: 2500, property: "top",start:-100,end: -500})
-    .animate("#squareBlack", {delay: 80,duration:1300, property: "top",start: 200,end: -500})
+    .animate("#squareBlack", {delay: 80,duration:1300, property: "top",start: 350,end: -500})
     .animate("#preScreen-login", {delay: 0,duration: 1300, property: "top",start: 300,end: -500});
     
     
@@ -201,7 +267,7 @@ $(document).ready(function() {
         var positionTop_ContactForm = (height_Window - height_ContactForm) / 2;
         return positionTop_ContactForm;
     }
-    $('#contact_link').click(function() {
+    $('.contact_link').click(function() {
         
         var topContactForm = positionTopContactForm();
         

@@ -97,20 +97,70 @@ $(document).ready(function() {
 
     
     
-    $(window).scroll(function() {
+       $(window).scroll(function() {
         var positionWindow = $(window).scrollTop();
-        var fixedPosition_blueBackground = $(".blueBackground").offset().top;
-        
-        if(positionWindow > fixedPosition_blueBackground - 100){
-            $(".sectionTitle-txt").addClass("is-white");
-            $(".sectionTitle-container").addClass("is-white");
+        var section_Intro = $("#section_intro").offset().top - 50;
+        var section_brand = $("#section_brand").offset().top - 150;
+        var section_appOverview = $("#section_appOverview").offset().top - 200;
+        var whitebackground = $("#whitebackground").offset().top - 150;
+        var bluebackground = $("#bluebackground").offset().top - 150;
+           var bluebackground2 = $("#bluebackground2").offset().top - 150;
+           
+        if (positionWindow < section_Intro - 100) {
+
+        }else {// your != 0 case here
+        }
+        if (positionWindow > section_Intro && positionWindow < section_brand ) {
+ 
+            $(".text-change").removeClass("active");
+            $(".text-intro").addClass("active");
             
+            if(positionWindow > bluebackground){
+                    
+                $(".sectionTitle-container").removeClass("is-black");
+                $(".sectionTitle-container").addClass("is-white");
+            }
+            if(positionWindow < bluebackground){
+                $(".sectionTitle-container").removeClass("is-white");
+                $(".sectionTitle-container").addClass("is-black");
+            }
+            
+            
+        }else {// your != 0 case here
+        }
+        if (positionWindow > section_brand && positionWindow < section_appOverview) {
+     
+                $(".text-intro").removeClass("active");
+                $(".text-change").removeClass("active");
+                $(".text-change2").addClass("active");
+    
+        }else {// your != 0 case here
+        }
+        if (positionWindow > section_appOverview) {
+     
+                $(".text-change").removeClass("active");
+                $(".text-change3").addClass("active");
+            
+                if(positionWindow > whitebackground ){
+                    
+                    $(".sectionTitle-container").removeClass("is-white");
+                    $(".sectionTitle-container").addClass("is-black");
+                }else{
+                    $(".sectionTitle-container").removeClass("is-black");
+                    $(".sectionTitle-container").addClass("is-white");
+                }
+    
+        }else {// your != 0 case here
+        }
+        if(positionWindow > bluebackground2){
+            $(".sectionTitle-container").removeClass("is-black");
+            $(".sectionTitle-container").addClass("is-white"); 
         }
         else{
-            $(".sectionTitle-txt").removeClass("is-white");
-            $(".sectionTitle-container").removeClass("is-white");
-            
+                
         }
+        
+    
     });
     
     
@@ -179,15 +229,14 @@ $(document).ready(function() {
     
     var scrollorama = $.scrollorama({ blocks:'.scrollblock' });
     scrollorama
-    .animate("#project-picture", {delay: -100, duration: 1500, property: "top", start:50, end: 800})
-    .animate("#p1_parallax1_1", {delay: -400, duration: 2700, property: "top", start: 0, end: -800})
-    .animate("#p1_parallax1_2", {delay: 0,duration: 1500,property: "top",start: -100,end: -500})
+    .animate("#p1_parallax1_1", {delay: -300, duration: 2700, property: "top", start: 0, end: -800})
+    .animate("#p1_parallax1_2", {delay: 0,duration: 1500,property: "top",start: -150,end: -500})
     .animate("#preScreen-home", {delay: 0,duration: 2000,property: "top",start: 200,end: -500})
     .animate("#preScreen-login", {delay: 0,duration: 1300, property: "top",start: 300,end: -500})
     .animate("#text-headlineApp", {delay: 0,duration: 2000,property: "top",start: 0,end: -800})
     .animate("#content_tvguide", {delay: 0,duration: 1500,property: "top",start: 100,end: -800})
-    .animate("#appScreen-actor", {delay: 0,duration: 1500,property: "top",start: 500,end: -800})
-    .animate("#appScreen-menu", {delay: 0,duration: 1500,property: "top",start: 500,end: -800});
+    .animate("#appScreen-actor", {delay: 0,duration: 2000,property: "top",start: 500,end: -800})
+    .animate("#appScreen-menu", {delay: 0,duration: 2000,property: "top",start: 500,end: -800});
     
     
     
@@ -198,7 +247,7 @@ $(document).ready(function() {
         var positionTop_ContactForm = (height_Window - height_ContactForm) / 2;
         return positionTop_ContactForm;
     }
-    $('#contact_link').click(function() {
+    $('.contact_link').click(function() {
         
         var topContactForm = positionTopContactForm();
         

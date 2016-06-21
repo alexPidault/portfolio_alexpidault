@@ -51,7 +51,12 @@ background: linear-gradient(to bottom,  rgba(191,191,191,1) 0%,rgba(191,191,191,
     transition-delay: 0.7s; 
 }
 
-
+.sectionTitle-container.is-black:after {
+    background: black;
+}
+.sectionTitle-container.is-black .sectionTitle-txt {
+    color: black;
+}
 
 .numberProject--3{
     background-image: url(../images/number-3.png);
@@ -96,11 +101,14 @@ background: linear-gradient(to bottom,  rgba(191,191,191,1) 0%,rgba(191,191,191,
 #sticky-offset {
     display: none;
 }
+.intro-bottom{
+    height: 200px;
+}
 .blackBackground {
     background: rgb(38,35,35);
-    background: url(../images/toutuncafe--3/background--logo.png) no-repeat 50% 4300px,-moz-linear-gradient(top, rgba(38,35,35,1) 0%, rgba(36,33,33,1) 100%);
-    background: url(../images/toutuncafe--3/background--logo.png) no-repeat 50% 4300px,-webkit-linear-gradient(top, rgba(38,35,35,1) 0%, rgba(36,33,33,1) 100%);
-    background: url(../images/toutuncafe--3/background--logo.png) no-repeat 50% 4300px, linear-gradient(top, rgba(38,35,35,1) 0%, rgba(36,33,33,1) 100%);
+    background: url(../images/toutuncafe--3/background--logo.png) no-repeat 50% 4500px,-moz-linear-gradient(top, rgba(38,35,35,1) 0%, rgba(36,33,33,1) 100%);
+    background: url(../images/toutuncafe--3/background--logo.png) no-repeat 50% 4500px,-webkit-linear-gradient(top, rgba(38,35,35,1) 0%, rgba(36,33,33,1) 100%);
+    background: url(../images/toutuncafe--3/background--logo.png) no-repeat 50% 4500px, linear-gradient(top, rgba(38,35,35,1) 0%, rgba(36,33,33,1) 100%);
     background-size: 100%;
 }
 @media  screen and (min-width: 1440px) {
@@ -119,7 +127,6 @@ background: linear-gradient(to bottom,  rgba(191,191,191,1) 0%,rgba(191,191,191,
 .preScreen {
     margin-top: 130px;
     height: inherit;
-    margin-bottom: -150px;
 }
 .preScreen-galery {
     width: 1000px;
@@ -655,9 +662,9 @@ section.branding{
 .footer--toutuncafe{
     padding-top: 600px;
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#262323+0,000000+100&0.1+14,1+23 */
-    background: -moz-linear-gradient(top,  rgba(38,35,35,0.1) 0%, rgba(33,30,30,0.1) 14%, rgba(30,27,27,1) 23%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  rgba(38,35,35,0.1) 0%,rgba(33,30,30,0.1) 14%,rgba(30,27,27,1) 23%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  rgba(38,35,35,0.1) 0%,rgba(33,30,30,0.1) 14%,rgba(30,27,27,1) 23%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: -moz-linear-gradient(to bottom,  rgba(38,35,35,0.1) 0%,rgba(33,30,30,0.1) 14%,rgba(30,27,27,1) 23%,rgb(39, 38, 38) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(to bottom,  rgba(38,35,35,0.1) 0%,rgba(33,30,30,0.1) 14%,rgba(30,27,27,1) 23%,rgb(39, 38, 38) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(38,35,35,0.1) 0%,rgba(33,30,30,0.1) 14%,rgba(30,27,27,1) 23%,rgb(39, 38, 38) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a262323', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
     top: -400px;
 }

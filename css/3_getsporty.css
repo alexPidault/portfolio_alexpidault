@@ -581,6 +581,8 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
     height: 60px;
     border: 3px solid #523A9C;
     margin: auto;
+    position: relative;
+    left: 50px;
     border-radius: 100%;
 }
 .sliderArrow--left{
@@ -589,7 +591,7 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
     background-size: 20%;
     background-position: 50%;
     background-repeat: no-repeat;
-    margin-top: 100px;
+     margin-top: 25px;
 }
 .sliderArrow--right{
      background-image: url(../images/getsporty--1/arrow--right.png);
@@ -597,18 +599,101 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
      background-size: 20%;
      background-position: 53%;
      background-repeat: no-repeat;
-     margin-top: 25px;
+    
+     margin-top: 65px;
 }
+.indicatorSlider{
+    width: 200px;
+    position: relative;
+    top: -80px;
+    left: 340px;
+    height: 1px;
+    border-top: 1px dashed #C6CCE0;
+}
+
+
 .appScreen-activity{
-    width: 100%;
+    width: 400px;
     height: 780px;
     background-image: url(../images/getsporty--1/screen--activity.png);
     background-size: 100%;
     background-repeat: no-repeat;
     position: relative;
-    top: -110px;
+    top: -88px;
+    left: 7px;
     margin-bottom: -100px;
 }
+
+.sliderActivity-container{
+    width: 930px;
+    height: 524px;
+    background: #FFFFFF;
+}
+.sliderActivity-wrapper{
+    width: 295px;
+    height: 524px;
+    overflow: hidden;
+    position: absolute;
+    top: 102px;
+    left: 49px;
+}
+.btn-search{
+    width: 70px;
+    height: 80px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/getsporty--1/slider/btn-search.png);
+    position: relative;
+    top: -79px;
+    margin: auto;
+    /* background: red; */
+}
+.sliderActivity-header{
+    width: 308px;
+    height: 99px;
+}
+.sliderActivity-content{
+    width: 295px;
+    height: 425px;
+    background-size: 100%;
+    float: left;
+}
+.sliderActivity-header--danse{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/getsporty--1/slider/danse-header.png);
+}
+.sliderActivity-header--healthy{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/getsporty--1/slider/healthy-header.png);
+    margin-top: -99px;
+}
+.sliderActivity-header--fight{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/getsporty--1/slider/fight-header.png);
+    margin-top: -99px;
+}
+.sliderActivity-content--danse{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/getsporty--1/slider/danse-section.jpg);
+}
+.sliderActivity-content--healthy{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/getsporty--1/slider/healthy-section.jpg);
+}
+.sliderActivity-content--fight{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/getsporty--1/slider/fight-section.jpg);
+}
+
+
+
+
 .orangeLine{
     width: 600px;
     height: 500px;
@@ -626,6 +711,7 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
     height: 600px;
     position: absolute;
     left: -50%;
+    z-index: 100;
     margin-top: -205px;
     background-image: url(../images/getsporty--1/screen--search.png);
     background-size: 100%;
@@ -635,7 +721,7 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
     margin-bottom: 250px;
 }
 .appScreen-coachProfile{
-    width: 150%;
+    width: 120%;
     height: 1000px;
     background-image: url(../images/getsporty--1/screen--coachProfile.png);
     background-size: 100%;
@@ -643,6 +729,7 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
     position: relative;
     top: -100px;
     margin-bottom: -100px;
+    left: 100px;
 }
 #coachProfile .content--left{
     padding-top: 200px;
@@ -709,12 +796,12 @@ section.exploringDetail .txt-headLine--first:after{
 }
 .screenDetail-text--left{
     float: left;
-    width: 222px;
-    padding-top: 130px;
+    width: 260px;
+    padding-top: 80px;
     padding-right: 20px;
 }
 .screenDetail-text--right{
-    width: calc(24% - 23px);
+    width: calc(29% - 23px);
     padding-top: 350px;
     padding-left: 26px;
     text-align: left;
@@ -724,16 +811,23 @@ section.exploringDetail .txt-headLine--first:after{
     margin-bottom: 60px;
 }
 .screenDetail--card{
-    width: 450px;
+    width: 370px;
     height: 300px;
     background-image: url(../images/getsporty--1/detail--cardSystem.png);
     background-size: 100%;
     background-repeat: no-repeat;
     float: left;
 }
+.seperator{
+    width: 1px;
+    height: 314px;
+    border-right: 2px dashed #E6E4E4;
+    position: absolute;
+    left: 55%;
+}
 
 .screenDetail--ticket{
-    width: 389px;
+    width: 350px;
     height: 500px;
     background-image: url(../images/getsporty--1/detail--ticket.png);
     background-size: 100%;
@@ -743,6 +837,14 @@ section.exploringDetail .txt-headLine--first:after{
     position: relative;
     left: 15px;
 }
+#ticket--left{
+    padding-top: 160px;
+}
+
+#ticket--right{
+    padding-top: 45px;
+}
+
 .screenDetail--sexe{
     width: 300px;
     height: 80px;
@@ -765,7 +867,7 @@ section.exploringDetail .txt-headLine--first:after{
     background-repeat: no-repeat;
 }
 #screenDetail--card1{
-    padding-top: 120Px;
+    padding-top: 80Px;
 }
 @media  screen and (min-width: 1440px) {
     .screenDetail--card{
