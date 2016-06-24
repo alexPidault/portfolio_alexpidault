@@ -146,6 +146,41 @@ $(document).ready(function() {
         }
     });
     
+    
+     /////// CONTACT FORM POSITION + ANIMATION TO MAKE IT VISIBLE ////////
+    function positionTopContactForm(e) {
+        var height_Window = $(window).height();   
+        var height_ContactForm = $('.contactForm').outerHeight();
+        var positionTop_ContactForm = (height_Window - height_ContactForm) / 2;
+        return positionTop_ContactForm;
+    }
+    $('.contact_link').click(function() {
+        
+        var topContactForm = positionTopContactForm();
+        
+        $('.whiteOverlay').fadeIn( "slow" );
+        $(".contactForm").css("display", "block");
+        
+        setTimeout(function(){
+            $(".contactForm").animate({
+                opacity: "1",
+                top: topContactForm
+            }, 300);
+        }, 600);
+	});
+    $('.whiteOverlay').click(function() {
+        
+        $(this).fadeOut( "slow" );
+        $(".contactForm").animate({
+                opacity: "0"
+        }, 300);
+         setTimeout(function(){
+            $(".contactForm").css("display", "none");
+             $(".contactForm").css("top", "0px");
+        }, 1000);
+        
+	});
+    
    
      $(window).scroll(function() {
         var positionWindow = $(window).scrollTop();
@@ -220,12 +255,8 @@ $(document).ready(function() {
     setTimeout(function(){
         var height_Footer = $(window).height() + 300;
         var marginTop_TxtHeadline = $(window).height() / 4;
-        var height_Slider = $(".sliderProgram").height();
-        var marginTop_Slider = ($(window).height() - height_Slider) / 2;
         $(".footer").css("height", height_Footer);
         $(".footer .txt-headTitle-container").css("margin-bottom", marginTop_TxtHeadline);
-        $(".sliderProgram").css("padding-top", marginTop_Slider);
-        
     }, 100);
     
                
@@ -260,39 +291,6 @@ $(document).ready(function() {
     
     
     
-     /////// CONTACT FORM POSITION + ANIMATION TO MAKE IT VISIBLE ////////
-    function positionTopContactForm(e) {
-        var height_Window = $(window).height();   
-        var height_ContactForm = $('.contactForm').outerHeight();
-        var positionTop_ContactForm = (height_Window - height_ContactForm) / 2;
-        return positionTop_ContactForm;
-    }
-    $('.contact_link').click(function() {
-        
-        var topContactForm = positionTopContactForm();
-        
-        $('.whiteOverlay').fadeIn( "slow" );
-        $(".contactForm").css("display", "block");
-        
-        setTimeout(function(){
-            $(".contactForm").animate({
-                opacity: "1",
-                top: topContactForm
-            }, 300);
-        }, 600);
-	});
-    $('.whiteOverlay').click(function() {
-        
-        $(this).fadeOut( "slow" );
-        $(".contactForm").animate({
-                opacity: "0"
-        }, 300);
-         setTimeout(function(){
-            $(".contactForm").css("display", "none");
-             $(".contactForm").css("top", "0px");
-        }, 1000);
-        
-	});
-
     
+	
 });

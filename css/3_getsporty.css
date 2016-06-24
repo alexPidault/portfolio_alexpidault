@@ -621,7 +621,7 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
     position: relative;
     top: -88px;
     left: 7px;
-    margin-bottom: -100px;
+    margin-bottom: -280px;
 }
 
 .sliderActivity-container{
@@ -698,10 +698,71 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
     width: 600px;
     height: 500px;
     position: relative;
+    left: 16%;
+    margin-bottom: -10px;
+    top: -33px;
+    margin-top: -99px;
+    z-index: 1000;
+}
+.orangeLine-shadow{
+    width: 600px;
+    height: 500px;
+    position: relative;
+    left: 16%;
+    margin-top: -300px;
+    margin-bottom: -200px;
+    background-image: url(../images/getsporty--1/orange-shadow.png);
+    background-size: contain;
+    opacity: 0;
+}
+.orangeLine-shadow.is-active{
+   opacity: 1;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+     -webkit-transition-delay: .5s;
+}
+.orangePath-container{
+    opacity: 0;
+}
+.orangePath-container.is-active{
+    opacity: 1;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+}
+.orangePath-container.is-active .orangePath {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: dash 1.5s linear forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.orangeLine-is-visible{
+    width: 600px;
+    height: 500px;
+    position: relative;
+    left: 12%;
+    margin-bottom: -10px;
+    margin-top: -200px;
+    background-image: url(../images/getsporty--1/orange-line.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 1000;
+}
+.orange-shadow{
+    width: 600px;
+    height: 500px;
+    position: relative;
     left: 12%;
     margin-bottom: -100px;
     margin-top: -200px;
-    background-image: url(../images/getsporty--1/orange-line.png);
+    background-image: url(../images/getsporty--1/orange-shadow.png);
     background-size: 100%;
     background-repeat: no-repeat;
     z-index: 2;
@@ -886,16 +947,27 @@ section.exploringDetail .txt-headLine--first:after{
 
 
 .orangeBackground{
-    padding-top: 250px;
-    background: rgba(252, 162, 37, 1);
+    padding-top: 200px;
+    background: #fca225;
+    height: 300px;
 }
-.orangeBackground--bookCourse{
-    margin-bottom: 500px;
-    padding: 0px !important;
-}
+.orangeBackground--bookCourse{padding: 0px !important;height: 700px;}
 .bookCourse-wrapper{
     padding-top: 70px;
     height: 552px;
+}
+.draw-container{
+    width: 900px;
+    height: 636px;
+    background-image:url(../images/getsporty--1/bg-demo.png);
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: -3%;
+    background-position-y: -40px;
+}
+.marvel-device.iphone6photo-frame, .marvel-device.iphone6-frame{
+    background-image:url(../images/getsporty--1/proxima/proxima-letter-min.png) !important;
 }
 .bookCourse-wrapper.is-fixed{
     position: fixed;
@@ -906,18 +978,14 @@ section.exploringDetail .txt-headLine--first:after{
     max-width: 930px;
 }
 .bookCourse-container{
-    width: 100%;
-    position: relative;
+    margin-top: -150px;
 }
 .bookCourse-phone{
     width: 350px;
     height: 700px;
     margin: auto;
-    background-image: url(../images/getsporty--1/screen--activity.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
     position: relative;
-    z-index: 5;
+    left: 20px;
 }
 .bookCourse-screenWrapper{
     width: 258px;
@@ -1104,13 +1172,7 @@ section.exploringDetail .txt-headLine--first:after{
 
 
 
-.spacer {
-	min-height: 100px;
-}
-.spacer.s1 {
-	min-height: 400px;
-    width: 100%;
-}
+
 .cont{
     position: fixed;
     top: 100px;
@@ -1126,10 +1188,10 @@ section.exploringDetail .txt-headLine--first:after{
     opacity: 0;
 }
 .footer--getsporty{
-    padding-top: 800px;
-    background: -moz-linear-gradient(top,  rgba(252,162,37,0.01) 0%, rgba(252,162,37,0.27) 12%, rgba(252,162,37,1) 46%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  rgba(252,162,37,0.01) 0%,rgba(252,162,37,0.27) 12%,rgba(252,162,37,1) 46%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  rgba(252,162,37,0.01) 0%,rgba(252,162,37,0.27) 12%,rgba(252,162,37,1) 46%); 
+    background: rgba(252,162,37,1);
+    position: relative;
+    padding-top: 300px;
+    top: -109px;
 }
 
 
@@ -1200,5 +1262,6 @@ section.exploringDetail .txt-headLine--first:after{
 #keoliTv.nextProject-title-container:hover .arrow{
     right: -75px;
 }
+
 
 

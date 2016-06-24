@@ -103,6 +103,8 @@ $(document).ready(function() {
         var section_footer = $("#section_footer").offset().top - 150;
         
    
+        var sectionArrowSlider = $(".sliderArrow--right").offset().top;
+        
         var violetBackground = $(".violetBackground").offset().top - 120;
         var whiteBackground = $(".whiteGradientBackground").offset().top - 120;
         
@@ -169,7 +171,13 @@ $(document).ready(function() {
            $(".sectionTitle-container").addClass("is-black");
         }
 
-                        
+            
+        if(positionWindow > sectionArrowSlider){
+            $('.orangePath-container').addClass('is-active');
+             $('.orangeLine-shadow').addClass('is-active');
+        }
+            
+        
         
         
     });
@@ -191,39 +199,14 @@ $(document).ready(function() {
         }
     });            
     
-   
-    
+ 
     
     setTimeout(function(){
         var height_Footer = $(window).height() + 300;
-        var marginTop_TxtHeadline = $(window).height() / 4;
+        var marginTop_content = Math.round($(window).height() / 4);
         $(".footer").css("height", height_Footer);
-        $(".footer .txt-headTitle-container").css("margin-bottom", marginTop_TxtHeadline);
-    }, 100);
-    
-            
-        
-
-
-    var a = new ScrollMagic.Controller({
-        globalSceneOptions: {
-            duration: 400
-        }
-    });
-    
-    new ScrollMagic.Scene({triggerElement: "#sec0"})
-        .setClassToggle("#step-0", "active").addTo(a),  
-    new ScrollMagic.Scene({triggerElement: "#sec1"})
-        .setClassToggle("#step-1", "active")
-        .addTo(a), 
-    new ScrollMagic.Scene({triggerElement: "#sec2"})
-        .setClassToggle("#step-2", "active")
-        .addTo(a), 
-    new ScrollMagic.Scene({triggerElement: "#sec3"}).setClassToggle("#step-3", "active")
-        .addTo(a), 
-    
-        
-        
+        $(".footer .content-container").css("margin-top", marginTop_content);
+    }, 100);     
         
         
         
