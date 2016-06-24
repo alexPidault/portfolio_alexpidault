@@ -999,6 +999,7 @@ a {
 .contact_link{
     cursor: pointer;
 }
+
 .contact_link:after{
     content: "";
     width: 0px;
@@ -1011,6 +1012,9 @@ a {
     transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out;
+}
+.contact:after{
+    display: none !important;
 }
 .contact_link:hover:after{
     width:152px;
