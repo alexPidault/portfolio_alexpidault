@@ -630,7 +630,27 @@ a {
 .introSide-container .txt-corp {
     margin-bottom: 20px;
 }
-
+.introResume-container{
+    float: right;
+    width: 420px;
+    padding: 55px;
+    padding-bottom: 170px;
+    position: relative;
+    box-shadow: 1px -5px 43px rgba(0,0,0,0.15);
+    border-radius: 3Px;
+    z-index: 2;
+}
+.project-title {
+    font-size: 93px;
+    font-family: 'Superclarendon-Black';
+    color: #FFF;
+    letter-spacing: -1px;
+    line-height: 70px;
+    margin-top: 145px;
+    margin-bottom: 105px;
+    position: relative;
+    z-index: 3;
+}
 .numberProject {
     display: block;
     width: 180px;
@@ -1263,14 +1283,14 @@ a {
     }
 
     .txt-inform {
-        font-size: 16px;
+        font-size: 17px;
         letter-spacing: 1.7px;
     }
     .txt-headLine{
         font-size: 85px;
     }
     .txt-annex {
-        font-size: 16px;    
+        font-size: 17px;    
     }
     .navbar-menu li a{
         font-size: 16px;
@@ -1323,9 +1343,17 @@ a {
     .prewiew-picture--1 {width: 595px;height: 640px;right: 100px;top: 0px;}
     .prewiew-picture--2 {width: 510px;height: 600px;right: 5px;top: 3px;}
     .prewiew-picture--3 {width: 520px;height: 600px;right: 60px;}
-}
-
-
-@media  screen and (min-width: 980px) {
+    
+    .introResume-container{
+        float: right;
+        width: 500px;
+        padding: 80px;
+    }
+    .project-title {
+        font-size: 112px;
+        line-height: 85px;
+    }
     
 }
+
+

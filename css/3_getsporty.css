@@ -56,17 +56,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fca225', end
 .numberProject--1 {
     background-image: url(../images/number-1.jpg);
 }
-.project-title {
-    font-size: 93px;
-    font-family: 'Superclarendon-Black';
-    color: #FFF;
-    letter-spacing: -1px;
-    line-height: 70px;
-    margin-top: 145px;
-    margin-bottom: 105px;
-    position: relative;
-    z-index: 3;
-}
 .project-title--blur {
     position: absolute;
     top: 65px;
@@ -81,15 +70,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fca225', end
     line-height: 34px;
 }
 .introResume-container{
-    float: right;
-    width: 420px;
-    padding: 55px;
-    padding-bottom: 170px;
-    position: relative;
     background: rgba(252, 162, 37, 1);
-    box-shadow: 1px -5px 43px rgba(0,0,0,0.15);
-    border-radius: 3Px;
-    z-index: 2;
 }
 #sticky-offset {
     display: none;
