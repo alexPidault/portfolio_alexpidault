@@ -1353,6 +1353,17 @@ a {
         font-size: 112px;
         line-height: 85px;
     }
+    .sectionTitle-wrapper {
+        left: 8%;
+        top: 39%;
+    }
+    .sectionTitle-wrapper.stick {
+        top: 35%;
+    }
+    .numberProject{
+        width: 250px;
+        margin-bottom: 150px;
+    }
     
 }
 
