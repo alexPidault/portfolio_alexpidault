@@ -98,11 +98,11 @@ a {
     padding: 0px !important;
 }
 .paralax {
-	position: relative;
+    position: relative;
 }
 .scrollblock{
-	position: relative !important;
-	top: 0px !important;
+    position: relative !important;
+    top: 0px !important;
 }
 .panel {
     height: 100%;
@@ -112,9 +112,9 @@ a {
     margin-bottom: 400px
 }
 .trigger{
-	width: 100%;
-	height: 100px;
-	background: yellow;
+    width: 100%;
+    height: 100px;
+    background: yellow;
 }
 
 
@@ -321,7 +321,7 @@ a {
     font-size: 12px;
     text-transform: uppercase;
     color: #fff;
-    letter-spacing: 2px;
+    letter-spacing: 1.7px;
 }
 #about.navbar-menu li a {
     color: #464E5C;
@@ -1242,13 +1242,13 @@ a {
     overflow: hidden;
 }
 
-@media  screen and (min-width: 1440px) {
+@media  screen and (min-width: 1366px) {
     
     .wrapper {
         max-width: 1250px;
     } 
     .txt-corp-important {
-        font-size: 22px;
+        font-size: 21px;
         line-height: 37px;
     }
 
@@ -1273,7 +1273,8 @@ a {
         font-size: 16px;    
     }
     .navbar-menu li a{
-        font-size: 15px;
+        font-size: 16px;
+        letter-spacing: 2px;
     }
     .navbar {
         padding-top: 70px;
@@ -1294,6 +1295,17 @@ a {
         font-size: 45px;
         letter-spacing: -1.5px;
     }
+     .project-quote .arrow{
+        top: 20px;
+        position: absolute;
+        -ms-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        margin-left: 20px;
+    }
+    .preview-project:hover .arrow{
+        margin-left: 30px;
+    }
      .project-number {
         padding-bottom: 25px;
         padding-top: 18px;
@@ -1305,6 +1317,8 @@ a {
     }
     .preview-project-container .project-name,.preview-project-container .txt-inform {
         margin-bottom: 35px;
+        font-size: 16px;
+        letter-spacing: 2px;
     }
     .prewiew-picture--1 {width: 595px;height: 640px;right: 100px;top: 0px;}
     .prewiew-picture--2 {width: 510px;height: 600px;right: 5px;top: 3px;}
