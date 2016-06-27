@@ -1344,6 +1344,9 @@ a {
     .prewiew-picture--2 {width: 510px;height: 600px;right: 5px;top: 3px;}
     .prewiew-picture--3 {width: 520px;height: 600px;right: 60px;}
     
+    .intro{
+        height: 800px;
+    }
     .introResume-container{
         float: right;
         width: 500px;
