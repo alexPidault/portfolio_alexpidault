@@ -90,12 +90,7 @@ a {
     margin: 0 auto;
     height: inherit;
 }
-/* (1680x1050) WSXGA+ Display */
-@media  screen and (min-width: 1440px) {
-    .wrapper {
-        max-width: 1250px;
-    }  
-}
+
 .no-margin{
     margin: 0px !important;
 }
@@ -216,44 +211,6 @@ a {
     text-align: center;
 }
 
-@media  screen and (min-width: 1440px) {
-    .txt-headLine{
-        font-size: 85px;
-    }
-}
-
-
-
-
-/* (1680x1050) WSXGA+ Display */
-@media  screen and (min-width: 1440px) {
-    .txt-corp-important {
-        font-size: 22px;
-        line-height: 37px;
-    }
-
-    .txt-corp {
-        font-size: 16px;
-        letter-spacing: 0.5px;
-    }
-
-    .txt-inform-important {
-        font-size: 16px;
-        letter-spacing: 1.7px;
-    }
-
-    .txt-inform {
-        font-size: 16px;
-        letter-spacing: 1.7px;
-    }
-
-    .txt-annex {
-        font-size: 16px;    
-    }
-     
-}
-
-
 .txt-white {
     color: #fff;
 }
@@ -369,35 +326,10 @@ a {
 #about.navbar-menu li a {
     color: #464E5C;
 }
-/* (1680x1050) WSXGA+ Display */
-@media  screen and (min-width: 1440px) {
-    .navbar-menu li a{
-        font-size: 15px;
-    }
-    .navbar {
-        padding-top: 70px;
-    }
-     
-}
 
 /* LOGO */
 .logo {
     float: left;
-}
-@media  screen and (min-width: 1440px) {
-    .logo-ap {
-        -ms-transform: scale(1.2);
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
-
-    }
-    .text-ap{
-        -ms-transform: scale(1.2);
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
-        margin-left: 16px;
-    }
-     
 }
 .logo-ap {
     display: block;
@@ -508,11 +440,7 @@ a {
     background-size: 95%;
     background-repeat: no-repeat;
 }
-@media  screen and (min-width: 1440px) {
-    .prewiew-picture--1 {width: 595px;height: 640px;right: 100px;top: 0px;}
-    .prewiew-picture--2 {width: 510px;height: 600px;right: 5px;top: 3px;}
-    .prewiew-picture--3 {width: 520px;height: 600px;right: 60px;}
-}
+
 .blockPage{
     width: 100%;
     height: 100%;
@@ -560,19 +488,11 @@ a {
 .preview-project-container {
     margin-top: 50px;
 }
-@media  screen and (min-width: 1440px) {
-    .preview-project-container {
-        margin-top: 100px;
-    }
-}
+
 .preview-project-container .project-name,.preview-project-container .txt-inform {
     margin-bottom: 25px;
 }
-@media  screen and (min-width: 1680px) {
-    .preview-project-container .project-name,.preview-project-container .txt-inform {
-        margin-bottom: 35px;
-    }
-}
+
 
 .preview-project {
     margin-bottom: 20px;
@@ -608,14 +528,6 @@ a {
     font-family: 'Conduit-Light';
     font-size: 12px;
 }
-@media  screen and (min-width: 1440px) {
-    .project-number {
-        padding-bottom: 25px;
-        padding-top: 18px;
-        padding-right: 25px;
-        font-size: 19px;
-    }
-}
 
 .project-quote {
     padding-bottom: 10px;
@@ -623,26 +535,11 @@ a {
     font-size: 30px;
     letter-spacing: -1.5px;
 }
-@media  screen and (min-width: 1440px) {
-    .project-quote {
-        padding-bottom: 15px;
-        font-size: 45px;
-        letter-spacing: -1.5px;
-    }
-}
-
 .project-name {
     font-family: 'Conduit-Light';
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1.7px;
-}
-@media  screen and (min-width: 1440px) {
-   .project-name {
-        font-size: 16px;
-        margin-bottom: 28px;
-    }
-
 }
 
 
@@ -743,14 +640,6 @@ a {
     position: relative;
     margin-bottom: 60px;
     margin-top: 70px;
-}
-
-@media  screen and (min-width: 1440px) {
-    .introResume-container {
-        width: 40%;
-        padding: 100px;
-        padding-bottom: 280px;
-    }
 }
 
 
@@ -1349,11 +1238,80 @@ a {
     border: none;
     color: white;
 }
-
-
-
-
-
 .scroll.not-allowed{
     overflow: hidden;
+}
+
+@media  screen and (min-width: 1440px) {
+    
+    .wrapper {
+        max-width: 1250px;
+    } 
+    .txt-corp-important {
+        font-size: 22px;
+        line-height: 37px;
+    }
+
+    .txt-corp {
+        font-size: 16px;
+        letter-spacing: 0.5px;
+    }
+
+    .txt-inform-important {
+        font-size: 16px;
+        letter-spacing: 1.7px;
+    }
+
+    .txt-inform {
+        font-size: 16px;
+        letter-spacing: 1.7px;
+    }
+    .txt-headLine{
+        font-size: 85px;
+    }
+    .txt-annex {
+        font-size: 16px;    
+    }
+    .navbar-menu li a{
+        font-size: 15px;
+    }
+    .navbar {
+        padding-top: 70px;
+    }
+    .logo-ap {
+        -ms-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    .text-ap{
+        -ms-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        margin-left: 16px;
+    }
+    .project-quote {
+        padding-bottom: 15px;
+        font-size: 45px;
+        letter-spacing: -1.5px;
+    }
+     .project-number {
+        padding-bottom: 25px;
+        padding-top: 18px;
+        padding-right: 25px;
+        font-size: 19px;
+    }
+    .preview-project-container {
+        margin-top: 100px;
+    }
+    .preview-project-container .project-name,.preview-project-container .txt-inform {
+        margin-bottom: 35px;
+    }
+    .prewiew-picture--1 {width: 595px;height: 640px;right: 100px;top: 0px;}
+    .prewiew-picture--2 {width: 510px;height: 600px;right: 5px;top: 3px;}
+    .prewiew-picture--3 {width: 520px;height: 600px;right: 60px;}
+}
+
+
+@media  screen and (min-width: 980px) {
+    
 }
