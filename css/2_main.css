@@ -1358,14 +1358,14 @@ a {
     }
     .sectionTitle-wrapper {
         left: 8%;
-        top: 39%;
+        top: 41%;
     }
     .sectionTitle-wrapper.stick {
-        top: 35%;
+        top: 37%;
     }
     .numberProject{
         width: 250px;
-        margin-bottom: 150px;
+        margin-bottom: 170px;
     }
     
 }
