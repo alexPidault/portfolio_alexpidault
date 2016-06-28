@@ -16,13 +16,7 @@
     position: relative;
     top: 50px;
 }
-@media  screen and (min-width: 1440px) {
-    .project-picture--1 {
-        width: 1069px;
-        height: 1000px;
-        left: 15%;
-    }
-}
+
 .project-picture--1:before{
     content: "";
     display: block;
@@ -60,27 +54,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db0f4f', end
     background-image: url(../images/number-2.png);
 }
 .introResume-container {
-    float: right;
-    width: 420px;
-    padding: 55px;
-    padding-bottom: 170px;
-    position: relative;
     background: #db0f4f;
-    box-shadow: 1px -5px 43px rgba(0,0,0,0.15);
-    border-radius: 3Px;
-    z-index: 2;
-}
-.project-title {
-    font-size: 93px;
-    font-family: 'Superclarendon-Black';
-    color: #FFF;
-    letter-spacing: -1px;
-    line-height: 70px;
-    margin-top: 145px;
-    margin-bottom: 85px;
-    position: relative;
-    z-index: 3;
-    line-height: 89px;
 }
 .project-title--blur {
     position: absolute;
@@ -103,23 +77,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db0f4f', end
     background: #3d499b;
      background: url(../images/keolitv--2/living-room.png) no-repeat 50% 3700px, url(../images/keolitv--2/family.png) no-repeat 50% -150px,-moz-linear-gradient(top, rgba(41,72,118,1) 0%,rgba(10,42,93,1) 100%);
     background: url(../images/keolitv--2/living-room.png) no-repeat 50% 3700px, url(../images/keolitv--2/family.png) no-repeat 50% -150px,-webkit-linear-gradient(top, rgba(41,72,118,1) 0%,rgba(10,42,93,1) 100%);
-    background: url(../images/keolitv--2/living-room.png) no-repeat 50% 3700px, url(../images/keolitv--2/family.png) no-repeat 50% -150px,linear-gradient(top, rgba(41,72,118,1) 0%,rgba(10,42,93,1) 100%);
-    
-    
-    
-    
+    background: url(../images/keolitv--2/living-room.png) no-repeat 50% 3700px, url(../images/keolitv--2/family.png) no-repeat 50% -150px,linear-gradient(top, rgba(41,72,118,1) 0%,rgba(10,42,93,1) 100%);  
     background-size: 100%;
 }
-@media  screen and (min-width: 1440px) {
-    .blueBackground {
-        background: #3d499b;
-        background: url(../images/getsporty--1/women-getsporty.png) no-repeat 50% 300px,-moz-linear-gradient(top,#3d499b 0%,#3b3795 100%);
-        background: url(../images/getsporty--1/women-getsporty.png) no-repeat 50% 300px,-webkit-gradient(linear,0% 0%,0% 100%,from(#1e5799),to(#a5c9e5));
-        background: url(../images/getsporty--1/women-getsporty.png) no-repeat 50% 300px,-webkit-linear-gradient(top,#3d499b 0%,#3b3795 100%);
-        background: url(../images/getsporty--1/background--salle.png) no-repeat 50% 3900px, url(../images/getsporty--1/women-getsporty.png) no-repeat 50% -355px, linear-gradient(to bottom,#3d499b 0%,#3b3795 100%);
-        background-size: 100%;
-    }
-}
+
 
 
 /* SECTION : PRESCREEN */
@@ -133,14 +94,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db0f4f', end
     margin: auto;
     position: relative;
 }
-@media  screen and (min-width: 1440px) {
-    .preScreen{
-       margin-top: 500px; 
-    }
-    .preScreen-container {
-         width: 890px;
-    }
-}
+
 .preScreen-home {
     width: 500px;
     height: 1032px;
@@ -174,11 +128,7 @@ section.branding{
     margin-top: 100px;
     margin-bottom: 500px;
 }
-@media  screen and (min-width: 1440px) {
-    section.branding{
-        margin-top: 750px;
-    }
-}
+
 .color-container{
     width: 100%;
     margin: auto;
@@ -242,18 +192,7 @@ section.branding{
     position: relative;
     margin-bottom: 150px;
 }
-@media  screen and (min-width: 1440px) {
-    .typo-container--project1{
-        margin-bottom: 300px;
-    }
-    .typo-content{
-     -ms-transform: scale(2); /* IE 9 */
-     -webkit-transform: scale(2); /* Safari */
-     transform: scale(1.2);
-     width: 1000px;
-     margin: auto;
-    }
-}
+
 .typo-number{
     margin:auto;
     position: relative;
@@ -643,3 +582,35 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
 
 }
 
+
+
+
+   
+
+@media  screen and (min-width: 1440px) {
+     .project-picture--1 {
+        width: 1069px;
+        height: 1000px;
+        left: 15%;
+    }
+    .preScreen{
+       margin-top: 500px; 
+    }
+    .preScreen-container {
+         width: 890px;
+    }
+     section.branding{
+        margin-top: 750px;
+    }
+    .typo-container--project1{
+        margin-bottom: 300px;
+    }
+    .typo-content{
+     -ms-transform: scale(2); /* IE 9 */
+     -webkit-transform: scale(2); /* Safari */
+     transform: scale(1.2);
+     width: 1000px;
+     margin: auto;
+    }
+
+}
