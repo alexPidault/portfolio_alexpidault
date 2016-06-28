@@ -1273,13 +1273,13 @@ a {
     }
 
     .txt-corp {
-        font-size: 16px;
+        font-size: 17px;
         letter-spacing: 0.5px;
     }
 
     .txt-inform-important {
-        font-size: 16px;
-        letter-spacing: 1.7px;
+        font-size: 17px;
+        letter-spacing: 4px;
     }
 
     .txt-inform {
@@ -1288,6 +1288,16 @@ a {
     }
     .txt-headLine{
         font-size: 85px;
+    }
+    .txt-headLine--first{
+        font-size: 17px;
+        letter-spacing: 4px;
+    }
+    .txt-headLine--first:before{
+        top:7px;
+    }
+    .txt-headLine--first:after{
+        top:7px;
     }
     .txt-annex {
         font-size: 17px;    
@@ -1357,7 +1367,7 @@ a {
         line-height: 85px;
     }
     .sectionTitle-wrapper {
-        left: 8%;
+        left: 6%;
         top: 41%;
     }
     .sectionTitle-wrapper.stick {
@@ -1366,6 +1376,9 @@ a {
     .numberProject{
         width: 250px;
         margin-bottom: 170px;
+    }
+    .content-container{
+        margin-bottom: 220px;
     }
     
 }

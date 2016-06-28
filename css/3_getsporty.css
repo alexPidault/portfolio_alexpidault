@@ -329,6 +329,11 @@ section.branding{
     background-size: 100%;
     background-repeat: no-repeat;
 }
+.themeMosaic {
+    max-width: 935px;
+    display: block;
+    margin: auto;
+}
 .theme--yoga{
     background-image: url(../images/getsporty--1/theme/theme--yoga.png);
     float: left;
@@ -357,7 +362,7 @@ section.appScreen--1{
 }
 
 .appScreen--1 .txt-headLine--first{
-    width: 300px;
+    width: 310px;
 }
 .appScreen-resumeCourse{
     width: 125%;
@@ -1176,13 +1181,29 @@ section.exploringDetail .txt-headLine--first:after{
         background: url(../images/getsporty--1/women-getsporty.png) no-repeat 50% 300px,-webkit-gradient(linear,0% 0%,0% 100%,from(#1e5799),to(#a5c9e5));
         background: url(../images/getsporty--1/women-getsporty.png) no-repeat 50% 300px,-webkit-linear-gradient(top,#3d499b 0%,#3b3795 100%);
         background: url(../images/getsporty--1/background--salle.png) no-repeat 50% 3900px, url(../images/getsporty--1/women-getsporty.png) no-repeat 50% -355px, linear-gradient(to bottom,#3d499b 0%,#3b3795 100%);
-        background-size: 1600px;
+        background-size: 100%, 1600px;
     }
     .preScreen{
        margin-top: 500px; 
     }
+    .preScreen-home{
+        width: 460px;
+    }
+    .preScreen-ticket{
+        width: 325px;
+        height: 600px;
+        top: 141px;
+        right: -53px;
+    }
+    .preScreen-menu{
+        width: 325px;
+        height: 600px;
+        top: 141px;
+        left: -25px;
+    }
+    
     .preScreen-container {
-         width: 890px;
+         width: 920px;
     }
      section.appScreen--1{
         margin-top: 350px;
@@ -1191,42 +1212,96 @@ section.exploringDetail .txt-headLine--first:after{
         margin-bottom: 300px;
     }
     .typo-content{
-     -ms-transform: scale(2); /* IE 9 */
-     -webkit-transform: scale(2); /* Safari */
+     -ms-transform: scale(1.2); /* IE 9 */
+     -webkit-transform: scale(1.2); /* Safari */
      transform: scale(1.2);
      width: 1000px;
      margin: auto;
     }
+    .themeMosaic{
+        -ms-transform: scale(1.2); /* IE 9 */
+        -webkit-transform: scale(1.2); /* Safari */
+        transform : scale(1.2);
+    } 
     .appScreen-resumeCourse{
         margin-top: 100px;
         width: 100%;
         position: relative;
+        margin-bottom: 100px;
     }
-    #detailCourse1 .content--right{
-       width: 400px;
-       margin-bottom: -200px;
-    }    
+      
     .screenDetail--card{
        position: relative;
         left: 65px;
     }
     .appScreen-detailCourse{
-        width: 100%;
+        width: 490px;
         height: 1010px;
+        margin-bottom: -205px;
         background-image: url(../images/getsporty--1/screen--detailCourse.png);
         background-size: 100%;
         background-repeat: no-repeat;
+        left: -35px;
+        position: relative;
+    }
+    #detailCourse2 .container {
+        margin-bottom: 290px;
+        padding-left: 130px;
     }
     .appScreen-activity{
         height: 1000px;
-        margin-bottom: -130px;
+        width: 500px;
+        margin-bottom: -330px;
+        top: -200px;
+    }
+    .sliderActivity-wrapper{
+        width: 368px;
+        height: 700px;
+        top: 128px;
+        left: 62px;
+    }
+    .sliderActivity-header{
+        width: 372px;
+        height: 120px;
+    }
+    .sliderActivity-header--fight{
+        width: 372px;
+        height: 120px;
+        margin-top: -120px;
+    }
+    .sliderActivity-header--healthy{
+        width: 372px;
+        height: 120px;
+        margin-top: -120px;
+    }
+    .sliderActivity-header--danse{
+        width: 372px;
+        height: 120px;
+    }
+    .sliderActivity-container{
+        width:1500px;
+    }
+    .sliderActivity-content{
+        width: 366px;
+        height: 600px;
+    }
+    .btn-search{
+        top: -80px;
     }
     .orangeLine{
-        width: 800px;
+        width: 900px;
         height:580px;
+        top: -159px;
+    }
+    .orangeLine svg{
+        width: 1000px;
+        height: 580px;
+        left: -150px;
     }
     .appScreen-search{
        height: 1000px;
+       top: -157px;
+       left: -60%;
     }
     .content-container#coachProfile{
         margin-top:100px; 
@@ -1237,6 +1312,32 @@ section.exploringDetail .txt-headLine--first:after{
     section.branding{
         margin-top: 750px;
     }
+    .themeMosaic{
+        -ms-transform: scale(1.2); /* IE 9 */
+        -webkit-transform: scale(1.2); */ /* Safari */
+        transform : scale(1.2); 
+    } 
+    #detailCourse1 .content--right{
+       width: 400px;
+       margin-bottom: -391px;
+    }  
+    .line--3{
+        width:200px;
+        left:-200px
+    }
+    .whiteGradientBackground{
+        margin-top:-370px;
+        padding-top: 450px;
+    }
+    .sliderArrow--right{
+        margin-top:150px;
+    }
+    .indicatorSlider{
+        left: 404px;
+        width: 400px;
+    }
 }
+
+
 
 
