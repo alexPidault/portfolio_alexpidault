@@ -89,14 +89,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db0f4f', end
     height: inherit;
 }
 .preScreen-container {
-    width: 96%;
+    width: 73%;
     height: inherit;
     margin: auto;
     position: relative;
+    margin-top: 100px;
 }
 
 .preScreen-home {
-    width: 500px;
+    width: 450px;
     height: 1032px;
     position: absolute;
     top: 270px;
@@ -107,7 +108,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db0f4f', end
     margin: auto;
 }
 .preScreen-login {
-    width: 630px;
+    width: 530px;
     height: 1074px;
     position: relative;
     left: 213px;
@@ -143,7 +144,7 @@ section.branding{
    color: white;
 }
 .color{
-    width: 550px;
+    width: 450px;
     height: 308px;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -171,6 +172,7 @@ section.branding{
 .color--1{
     background-image: url(../images/keolitv--2/color--1.png);
     z-index: 3;
+    margin-top: 30px;
 }
 .color--2{
     background-image: url(../images/keolitv--2/color--2.png);
@@ -296,7 +298,7 @@ section.appScreen--1 .txt-headTitle-container{
 .appScreen-filter-container{
     width: 840px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: -90px;
     position: relative;
     left: 50px;
     margin-bottom: 300px;
@@ -316,7 +318,6 @@ section.appScreen--1 .txt-headTitle-container{
     height: 654px;
     float: left;
     position: relative;
-    top: 80px;
     left: -78px;
     z-index: 1;
     background-image: url(../images/keolitv--2/screen-filter.png);
