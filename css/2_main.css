@@ -1378,6 +1378,8 @@ a {
         float: right;
         width: 500px;
         padding: 80px;
+        padding-top: 50px;
+        padding-bottom: 160px;
     }
     .project-title {
         font-size: 112px;
