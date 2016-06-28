@@ -755,7 +755,7 @@ a {
     top: -45px;
 }
 .text-change5{
-    top: -55px;
+    top: -65px;
 }
 
 
@@ -1310,6 +1310,15 @@ a {
     .content-title {
         margin-bottom: 22px;
     }
+    .content-title--min{
+        font-size:17px;
+        letter-spacing:4px;
+    }
+    .txt-headLine--nextProject{
+        font-size:17px;
+        letter-spacing:4px;
+        width: 190px;
+    }
     .navbar-menu li a{
         font-size: 16px;
         letter-spacing: 2px;
@@ -1394,7 +1403,13 @@ a {
     .arrow-up{
         top:-115px;
     }
-    
+    .footer-txt{
+        font-size: 28px;
+        line-height: 43px;
+    }
+    .nextProject-container{
+        width: 31% !important;
+    }
 }
 
 

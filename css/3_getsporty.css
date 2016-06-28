@@ -1222,6 +1222,9 @@ section.exploringDetail .txt-headLine--first:after{
     .screenDetail-text--left{
         width:28%;
     }
+    .detail-title{
+        margin-top: 150px;
+    }
     #bigScreen.bookCourse-phone{
         display: block;
         top: -120px;
@@ -1231,11 +1234,19 @@ section.exploringDetail .txt-headLine--first:after{
     #normalScreen.bookCourse-phone{
             display: none;
     }
+    .draw-container{
+        width: 1250px;
+        background-position: 38% 86%;
+        background-size: 81%;
+    }
     .footer--getsporty{
         top: -30px;
     }
     .orangeBackground{
-        padding-top: 260px !important;
+        padding-top: 290px !important;
+    }
+    .text-change5 {
+        top: -65px;
     }
 }
 
