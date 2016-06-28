@@ -899,147 +899,13 @@ section.exploringDetail .txt-headLine--first:after{
     background: yellow;
 }
 
-.bookCourse-start{
-    width: 150px;
-    height: 115px;
-    position: absolute;
-    top: 23px;
-    right: 84px;
-    background-image: url(../images/getsporty--1/bookCourse--start.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.bookCourse-step1{
-    width: 70px;
-    height: 76px;
-    position: absolute;
-    top: 305px;
-    right: 100px;
-    background-image: url(../images/getsporty--1/bookCourse--step1.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    z-index: 10;
-}
-.bookCourse-step1:after{
-    opacity:0;
-    content: "";
-    display: block;
-    position: absolute;
-    width: 70px;
-    height: 76px;
-    top: 0px;
-    right: 0px;
-    background-image: url(../images/getsporty--1/bookCourse--step1-white.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.bookCourse-step1.active:after{
-   opacity:0.8;
-}
-.bookCourse-step2{
-    width: 150px;
-    height: 192px;
-    position: absolute;
-    top: 40px;
-    left: -38px;
-    background-image: url(../images/getsporty--1/bookCourse--step2.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.bookCourse-step2:after{
-    opacity:0;
-    content: "";
-    display: block;
-    position: absolute;
-    width: 150px;
-    height: 192px;
-    top: 0px;
-    right: 0px;
-    background-image: url(../images/getsporty--1/bookCourse--step2-white.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.bookCourse-step2.active:after{
-   opacity:0.8;
-}
-.bookCourse-step3{
-    width: 88px;
-    height: 110px;
-    position: absolute;
-    top: 430px;
-    left: 110px;
-    background-image: url(../images/getsporty--1/bookCourse--step3.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    z-index: 10;
-}
-.bookCourse-step3:after{
-    opacity:0;
-    content: "";
-    display: block;
-    position: absolute;
-    width: 88px;
-    height: 110px;
-    top: 0px;
-    right: 0px;
-    background-image: url(../images/getsporty--1/bookCourse--step3-white.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.bookCourse-step3.active:after{
-   opacity:0.8;
-}
-.bookCourse-title{
-    font-family: 'Conduit-Bold';
-    font-size: 14px;
-    color: #E58D0E;
-}
-.bookCourse-step1.active .bookCourse-title,
-.bookCourse-step2.active .bookCourse-title,
-.bookCourse-step3.active .bookCourse-title{
-    color: white;
-}
-.bookCourse-step1 .bookCourse-content{
-    position:relative;
-    top: -60px;
-    left: -30px;
-    width: 200px;
-    text-align: center;
-}
-.bookCourse-step2 .bookCourse-content{
-    position:relative;
-    top: 200px;
-    left: 59px;
-    width: 200px;
-    text-align: center;
-}
-.bookCourse-step3 .bookCourse-content{
-    position:relative;
-    top: -50px;
-    left: 20px;
-    width: 200px;
-    text-align: center;
-}
 
-.bookCourse-number{
-    width: 25px;
-    height: 25px;
-    display: block;
-    border: 3px solid #E58D0E;
-    border-radius: 100%;
-    font-family: 'Conduit-Bold';
-    font-size: 14px;
-    line-height: 25px;
-    color: #E58D0E;
-    margin: auto;
-    position: relative;
-    top: 10Px;
+
+#bigScreen.bookCourse-phone{
+        display: none;
 }
-.bookCourse-step1.active .bookCourse-number,
-.bookCourse-step2.active .bookCourse-number,
-.bookCourse-step3.active .bookCourse-number{
-    color: white;
-    border-color: white;
+#normalScreen.bookCourse-phone{
+        display: block;
 }
 
 .path-container--white{
@@ -1232,7 +1098,10 @@ section.exploringDetail .txt-headLine--first:after{
       
     .screenDetail--card{
        position: relative;
-        left: 65px;
+       width: 490px;
+    }
+    .seperator{
+        left: 53%;
     }
     .appScreen-detailCourse{
         width: 490px;
@@ -1293,6 +1162,10 @@ section.exploringDetail .txt-headLine--first:after{
         height:580px;
         top: -159px;
     }
+    .orangeRound{
+        top: -47px;
+        left: -72px;
+    }
     .orangeLine svg{
         width: 1000px;
         height: 580px;
@@ -1302,12 +1175,14 @@ section.exploringDetail .txt-headLine--first:after{
        height: 1000px;
        top: -157px;
        left: -60%;
+       /* margin-bottom: 106px; */
     }
     .content-container#coachProfile{
         margin-top:100px; 
     }
     .screenDetail--ticket{
-        left: 100px;
+        left: 65px;
+        width: 400px;
     }
     section.branding{
         margin-top: 750px;
@@ -1327,7 +1202,7 @@ section.exploringDetail .txt-headLine--first:after{
     }
     .whiteGradientBackground{
         margin-top:-370px;
-        padding-top: 450px;
+        padding-top: 350px;
     }
     .sliderArrow--right{
         margin-top:150px;
@@ -1335,6 +1210,32 @@ section.exploringDetail .txt-headLine--first:after{
     .indicatorSlider{
         left: 404px;
         width: 400px;
+    }
+    .appScreen-coachProfile{
+        margin-top: 90px;
+        width: 550px;
+        left: -13px;
+    }
+    #coachProfile .content--left{
+        padding-top: 350px;
+    }
+    .screenDetail-text--left{
+        width:28%;
+    }
+    #bigScreen.bookCourse-phone{
+        display: block;
+        top: -120px;
+        left: 0px;
+        width: 400px;
+    }
+    #normalScreen.bookCourse-phone{
+            display: none;
+    }
+    .footer--getsporty{
+        top: -30px;
+    }
+    .orangeBackground{
+        padding-top: 260px !important;
     }
 }
 

@@ -1267,6 +1267,9 @@ a {
     .wrapper {
         max-width: 1250px;
     } 
+    .wrapper--project{
+        padding-top:220px;
+    }
     .txt-corp-important {
         font-size: 21px;
         line-height: 37px;
@@ -1275,6 +1278,7 @@ a {
     .txt-corp {
         font-size: 17px;
         letter-spacing: 0.5px;
+        line-height: 27px;
     }
 
     .txt-inform-important {
@@ -1288,6 +1292,7 @@ a {
     }
     .txt-headLine{
         font-size: 85px;
+        width: 812px;
     }
     .txt-headLine--first{
         font-size: 17px;
@@ -1301,6 +1306,9 @@ a {
     }
     .txt-annex {
         font-size: 17px;    
+    }
+    .content-title {
+        margin-bottom: 22px;
     }
     .navbar-menu li a{
         font-size: 16px;
@@ -1379,6 +1387,12 @@ a {
     }
     .content-container{
         margin-bottom: 220px;
+    }
+    .footer-bottom{
+        padding: 85px 0px;
+    }
+    .arrow-up{
+        top:-115px;
     }
     
 }
