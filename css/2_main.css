@@ -1267,7 +1267,7 @@ a {
         padding-top: 80px;
     }
     .preview-intro{
-        padding-bottom: 25px;
+        padding-bottom: 15px;
     }
     .wrapper{
         max-width: 1010px;
@@ -1282,7 +1282,10 @@ a {
     .preview-picture-container{
         width: 366px;
     }
-    .preview-picture--3{
+    .prewiew-picture--1{
+        top: 20px;
+    }
+    .prewiew-picture--3{
         top: 50px;
     }
     .project-quote{
