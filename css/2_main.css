@@ -1262,7 +1262,7 @@ a {
     overflow: hidden;
 }
 
-@media  screen and (min-width: 1400px) {
+@media  screen and (min-width: 1445px) {
     
     .wrapper {
         max-width: 1250px;
