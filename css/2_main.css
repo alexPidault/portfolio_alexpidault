@@ -1270,7 +1270,25 @@ a {
         padding-bottom: 25px;
     }
     .wrapper{
-        width: 980px;
+        max-width: 980px;
+    }
+    .txt-corp-important{
+        font-size: 19px;
+        line-height: 33px;
+    }
+    .preview-txt-container{
+        width: 60%;
+    }
+    .project-quote{
+        font-size: 36px;
+    }
+    .project-name{
+        font-size: 15px;
+    }
+    .navbar-menu li a,
+    .txt-inform{
+        font-size: 15px;
+        letter-spacing: 1.9px;
     }
 }
 
