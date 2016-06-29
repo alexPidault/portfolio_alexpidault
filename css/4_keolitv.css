@@ -56,6 +56,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db0f4f', end
 .introResume-container {
     background: #db0f4f;
 }
+.project-title{
+    line-height: 110px;
+}
 .project-title--blur {
     position: absolute;
     top: 18px;
@@ -605,6 +608,7 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
     }
      section.branding{
         margin-top: 300px;
+        margin-bottom: 800px;
     }
     .typo-container--project1{
         margin-bottom: 300px;
@@ -620,8 +624,23 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
     .appScreen--1{
         margin-top: 224px;
     }
+    .appScreen-detail{
+        width:83%;
+    }
+    .blueBackground{
+        padding-bottom: 400px;
+        margin-bottom: -476px;
+    }
+    .blue-block{
+        width: 1000px;
+        height: 500px;
+        top: 365px;
+    }
 
 }
+
+
+
 
 @media  screen and (min-width: 1370px) and (max-width: 1445px) {
     
