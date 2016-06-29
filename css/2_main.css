@@ -1277,7 +1277,13 @@ a {
         line-height: 33px;
     }
     .preview-txt-container{
-        width: 60%;
+        width: 61%;
+    }
+    .preview-picture-container{
+        width: 366px;
+    }
+    .preview-picture--3{
+        top: 50px;
     }
     .project-quote{
         font-size: 36px;
