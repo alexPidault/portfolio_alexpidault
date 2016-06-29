@@ -593,11 +593,18 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
         height: 1000px;
         left: 15%;
     }
+    .preScreen-home{
+        width:500px;
+    }
+    .preScreen-login{
+        width:550px;
+        left: 160px;
+    }
     .preScreen-container {
          width: 890px;
     }
      section.branding{
-        margin-top: 750px;
+        margin-top: 300px;
     }
     .typo-container--project1{
         margin-bottom: 300px;
@@ -608,6 +615,10 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
      transform: scale(1.2);
      width: 1000px;
      margin: auto;
+     margin-bottom: 300px;
+    }
+    .appScreen--1{
+        margin-top: 224px;
     }
 
 }
@@ -616,3 +627,4 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
     
     
 }
+
