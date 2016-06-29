@@ -585,17 +585,13 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
 
 
 
-
    
 
-@media  screen and (min-width: 1440px) {
+@media  screen and (min-width: 1445px) {
      .project-picture--1 {
         width: 1069px;
         height: 1000px;
         left: 15%;
-    }
-    .preScreen{
-       margin-top: 500px; 
     }
     .preScreen-container {
          width: 890px;
@@ -614,4 +610,9 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
      margin: auto;
     }
 
+}
+
+@media  screen and (min-width: 1370px) and (max-width: 1445px) {
+    
+    
 }
