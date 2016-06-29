@@ -1262,7 +1262,7 @@ a {
     overflow: hidden;
 }
 
-@media  screen and (min-width: 1366px) and (max-width: 1445px) {
+@media  screen and (min-width: 1370px) and (max-width: 1445px) {
     .navbar{
         padding-top: 80px;
     }
