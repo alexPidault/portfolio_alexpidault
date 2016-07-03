@@ -299,11 +299,11 @@ section.appScreen--1 .txt-headTitle-container{
     padding-bottom: 250px;
 }
 .appScreen-filter-container{
-    width: 840px;
+    width: 751px;
     margin: auto;
-    margin-top: -90px;
+    margin-top: -68px;
     position: relative;
-    left: 80px;
+    left: 50px;
     margin-bottom: 300px;
 }
 .appScreen-home--now{
@@ -316,8 +316,12 @@ section.appScreen--1 .txt-headTitle-container{
     position: relative;
     z-index: 3;
 }
+#content_tvguide{
+    margin-top: -100px;
+    margin-bottom: 150px;
+}
 .appScreen-filter{
-    width: 390px;
+    width: 351px;
     height: 654px;
     float: left;
     position: relative;
@@ -370,7 +374,7 @@ section.appScreen--1 .txt-headTitle-container{
     padding-top: 100px;
 }
 .content-container#screen-menu{
-    margin-top: -400px;
+    margin-top: -300px;
 }
 #menu-wrapper{
     margin-bottom: -350px;
