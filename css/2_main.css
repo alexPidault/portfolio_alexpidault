@@ -1484,4 +1484,27 @@ a {
     .wrapper {
         max-width: 1250px;
     } 
+    .txt-corp-important {
+        font-size: 18px;
+        line-height: 37px;
+    }
+
+    .txt-corp {
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        line-height: 24px;
+    }
+    .content-description{
+        width: 70%;
+    }
+
+    .txt-inform-important {
+        font-size: 14px;
+        letter-spacing: 3px;
+    }
+
+    .txt-inform {
+        font-size: 14px;
+        letter-spacing: 1.4px;
+    }
 }
