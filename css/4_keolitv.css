@@ -303,11 +303,11 @@ section.appScreen--1 .txt-headTitle-container{
     margin: auto;
     margin-top: -90px;
     position: relative;
-    left: 50px;
+    left: 80px;
     margin-bottom: 300px;
 }
 .appScreen-home--now{
-    width: 450px;
+    width: 400px;
     height: 800px;
     float: left;
     background-image: url(../images/keolitv--2/screen--home-now.png);
@@ -367,7 +367,10 @@ section.appScreen--1 .txt-headTitle-container{
 }
 
 .content--left#actor_detail{
-    padding-top: 270px;
+    padding-top: 100px;
+}
+.content-container#screen-menu{
+    margin-top: -200px;
 }
 #menu-wrapper{
     margin-bottom: -350px;
@@ -393,7 +396,9 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
 }
 
 
-
+#whitebackground{
+    margin-top: 150px;
+}
 
 .blueBackground-2{
     width: 100%;
