@@ -628,16 +628,17 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
         width:83%;
     }
     .blueBackground{
-        padding-bottom: 400px;
-        margin-bottom: -476px;
+        padding-bottom: 262px;
+        margin-bottom: -312px;
     }
     .blue-block{
-        width: 1000px;
+        width: 904px;
         height: 500px;
-        top: 365px;
+        top: 253px;
+        border-radius: 0px 0px 200px;
     }
     .appScreen-detail{
-        width: 800px;
+        width: 100%;
         height: 1054px;
         z-index: 4;
         position: relative;
@@ -646,8 +647,16 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
         background-repeat: no-repeat;
         margin-bottom: -250px;
     }
+    .appScreen-actor,
+    .appScreen-menu{
+        width:450px;
+    }
+    #menu-wrapper{
+        margin-top:800px;
+    }
 
 }
+
 
 
 
