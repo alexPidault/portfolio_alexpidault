@@ -922,6 +922,10 @@ a {
     -moz-transition: all .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out;
 }
+.contact-container .contact_link:after{
+    background: #b3b8cd;
+    left: 220px;
+}
 .contact:after{
     display: none !important;
 }

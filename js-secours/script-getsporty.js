@@ -103,7 +103,7 @@ $(document).ready(function() {
         var section_footer = $("#section_footer").offset().top - 150;
         
    
-        var sectionArrowSlider = $(".sliderArrow--right").offset().top;
+        var sectionArrowSlider = $(".sliderArrow--right").offset().top - 100;
         
         var violetBackground = $(".violetBackground").offset().top - 120;
         var whiteBackground = $(".whiteGradientBackground").offset().top - 120;

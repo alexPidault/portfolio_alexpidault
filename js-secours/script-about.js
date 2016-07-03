@@ -144,7 +144,7 @@ $(document).ready(function() {
         var positionTop_ContactForm = (height_Window - height_ContactForm) / 2;
         return positionTop_ContactForm;
     }
-    $('#contact_link').click(function() {
+    $('.contact_link').click(function() {
         
         var topContactForm = positionTopContactForm();
         
