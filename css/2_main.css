@@ -1320,6 +1320,9 @@ a {
     
 } 
 @media  screen and (min-width: 1445px) {
+    .wrapper {
+        max-width: 1050px;
+    } 
     .wrapper--project{
         padding-top:220px;
     }
