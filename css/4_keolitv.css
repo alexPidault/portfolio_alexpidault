@@ -654,6 +654,9 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
     #actor_wrapper{
         margin-bottom:400px;
     }
+    .blueBackground-2{
+        height:1500px;
+    }
 
 }
 
