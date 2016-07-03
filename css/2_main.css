@@ -1319,12 +1319,7 @@ a {
     }
     
 } 
-@media  screen and (min-width: 1445px) and  (max-width:1900px) {
-    .wrapper {
-        max-width: 1050px;
-    } 
-}
-@media  screen and (min-width: 1910px) {
+@media  screen and (min-width: 1600px) {
     .wrapper {
         max-width: 1250px;
     } 
