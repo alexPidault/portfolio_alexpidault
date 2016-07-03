@@ -1320,6 +1320,12 @@ a {
     
 } 
 
+@media  screen and (min-width: 1680px) and (max-width: 1800px) {
+    .wrapper {
+        max-width: 1050px;
+    } 
+}
+
 @media  screen and (min-width: 1445px) {
     
     .wrapper {
