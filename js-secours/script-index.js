@@ -31,7 +31,7 @@ $(document).ready(function() {
         if("matchMedia" in window) {
             if(window.matchMedia("(max-width:768px)").matches) {    
                 $('.loaderSquare-container').css("top", marginTop_LoaderSquare);
-            }else if(window.matchMedia("(min-width:1200px)").matches){
+            }else if(window.matchMedia("(min-width:1366px)").matches){
                 $('.loaderSquare-container').css("top", marginTop_LoaderSquare);
             }else{
                 $('.loaderSquare-container').css("top", marginTop_LoaderSquare);
@@ -99,10 +99,10 @@ $(document).ready(function() {
         if("matchMedia" in window) {
           if(window.matchMedia("(max-width:768px)").matches) {    
             ContentPreview.css("margin-top", marginTopContent);
-          }else if(window.matchMedia("(min-width:1200px)").matches){
-              ContentPreview.css("margin-top", marginTopContent - 30);
+          }else if(window.matchMedia("(min-width:1440px)").matches){
+              ContentPreview.css("margin-top", marginTopContent - 70);
           }else{
-              ContentPreview.css("margin-top", marginTopContent);
+              ContentPreview.css("margin-top", marginTopContent - 30);
           }
         }
     }

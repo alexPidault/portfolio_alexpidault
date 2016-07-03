@@ -108,8 +108,8 @@ $(document).ready(function() {
         if("matchMedia" in window) {
             if(window.matchMedia("(max-width:768px)").matches) {    
                 $('.about-container').css("margin-top", marginTop_AboutContainer);
-          }else if(window.matchMedia("(min-width:1200px)").matches){
-                $('.about-container').css("margin-top", marginTop_AboutContainer);
+          }else if(window.matchMedia("(min-width:1350px)").matches){
+                $('.about-container').css("margin-top", marginTop_AboutContainer - 50);
           }else{
                 $('.about-container').css("margin-top", marginTop_AboutContainer);
           }

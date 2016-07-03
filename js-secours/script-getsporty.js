@@ -175,6 +175,8 @@ $(document).ready(function() {
         if(positionWindow > sectionArrowSlider){
             $('.orangePath-container').addClass('is-active');
              $('.orangeLine-shadow').addClass('is-active');
+            $('.orangeRound').addClass('is-active');
+            
         }
             
         
@@ -228,7 +230,7 @@ $(document).ready(function() {
     
     var scrollorama = $.scrollorama({ blocks:'.scrollblock' });
     scrollorama
-    .animate("#p1_parallax1_1", {delay: -940, duration: 2700, property: "top", start: 0, end: -800})
+    .animate("#p1_parallax1_1", {delay: -800, duration: 2700, property: "top", start: -30, end: -800})
     .animate("#p1_parallax1_2", {delay: 0,duration: 1500,property: "top",start: -150,end: -500})
     .animate("#themeMosaic1", {delay: 0,duration: 2300,property: "top",start: 400,end: -500})
     .animate("#themeMosaic2", {delay: 0,duration: 2300, property: "top",start: 300,end: -500})
@@ -289,6 +291,7 @@ $(document).ready(function() {
             var wayArrow = $( this ).attr('id')            
             var indexItem = $("#root").html();
             
+            console.log(wayArrow);
             if(wayArrow == "right"){
                 
                     indexItem = parseInt(indexItem) + 1;
@@ -320,7 +323,7 @@ $(document).ready(function() {
                         }
                     }
             }else{
-                    
+                    console.log("left");
                     indexItem = parseInt(indexItem) - 1;
                     $("#root").html(indexItem);
                     

@@ -234,9 +234,9 @@ $(document).ready(function() {
     .animate("#preScreen-home", {delay: 0,duration: 2000,property: "top",start: 200,end: -500})
     .animate("#preScreen-login", {delay: 0,duration: 1300, property: "top",start: 300,end: -500})
     .animate("#text-headlineApp", {delay: 0,duration: 2000,property: "top",start: 0,end: -800})
-    .animate("#content_tvguide", {delay: 0,duration: 1500,property: "top",start: 100,end: -800})
-    .animate("#appScreen-actor", {delay: 0,duration: 2000,property: "top",start: 500,end: -800})
-    .animate("#appScreen-menu", {delay: 0,duration: 2000,property: "top",start: 500,end: -800});
+    .animate("#content_tvguide", {delay: 0,duration: 2000,property: "top",start: 0,end: -800})
+    .animate("#appScreen-actor", {delay: 0,duration: 2000,property: "top",start: 0,end: -800})
+    .animate("#appScreen-menu", {delay: 0,duration: 2000,property: "top",start: 0,end: -800});
     
     
     
