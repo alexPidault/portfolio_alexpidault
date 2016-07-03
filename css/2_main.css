@@ -1266,7 +1266,14 @@ a {
     overflow: hidden;
 }
 
-@media  screen and (min-width: 1370px) and (max-width: 1445px) {
+
+
+
+
+
+
+@media  screen and (min-width: 1280px) and (max-width:1440px) {
+
     .navbar{
         padding-top: 80px;
     }
@@ -1319,7 +1326,12 @@ a {
     }
     
 } 
-@media  screen and (min-width: 1600px) {
+@media  screen and (min-width: 1440px) and (max-width:1680px) {
+    .wrapper {
+        max-width: 1010px;
+    } 
+}
+@media  screen and (min-width: 1680px) {
     .wrapper {
         max-width: 1250px;
     } 
@@ -1478,7 +1490,5 @@ a {
     .contact_link:hover:after{
         width:185px;
     }
+   
 }
-
-
-
