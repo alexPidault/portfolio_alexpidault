@@ -1273,7 +1273,13 @@ a {
 
 
 @media  screen and (min-width: 1280px) and (max-width:1440px) {
-
+    .text-ap{
+        font-size:15px;
+        letter-spacing: 2px;
+        line-height:20px;
+        top:-4px;
+        position:relative;
+    }
     .navbar{
         padding-top: 80px;
     }
@@ -1339,9 +1345,41 @@ a {
         letter-spacing: 0.5px;
         line-height: 24px;
     }
-    .navbar-menu li a{
+    .txt-inform,
+    .navbar-menu li a,
+    .project-name{
         font-size: 15px;
         letter-spacing: 2px;
+    }
+    .project-quote{
+        font-size:35px;  
+    }
+    .preview-project{
+       margin-top:35px;
+    }
+    .prewiew-picture--1{
+        width:500px;
+        height: 540px;
+    }
+    .prewiew-picture--2{
+        width:480px;
+        height: 540px;
+        top:-10px;
+    }
+     .prewiew-picture--3{
+        width:480px;
+        height: 540px;
+        top:-10px;
+    }
+    .preview-txt-container{
+        width:57%;
+    }
+    .text-ap{
+        font-size:15px;
+        letter-spacing: 2px;
+        line-height:20px;
+        top:-4px;
+        position:relative;
     }
     .navbar {
         padding-top: 60px;
