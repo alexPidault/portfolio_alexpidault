@@ -370,7 +370,7 @@ section.appScreen--1 .txt-headTitle-container{
     padding-top: 100px;
 }
 .content-container#screen-menu{
-    margin-top: -200px;
+    margin-top: -400px;
 }
 #menu-wrapper{
     margin-bottom: -350px;
@@ -654,10 +654,11 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
     }
     .appScreen-actor,
     .appScreen-menu{
+        margin: auto;
         width:450px;
     }
     #actor_wrapper{
-        margin-bottom:300px;
+        margin-bottom:250px;
     }
     .blueBackground-2{
         height:1500px;

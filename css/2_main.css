@@ -1334,6 +1334,9 @@ a {
         letter-spacing: 0.5px;
         line-height: 27px;
     }
+    .content-description{
+        width: 75%;
+    }
 
     .txt-inform-important {
         font-size: 17px;
