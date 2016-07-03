@@ -651,8 +651,8 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
     .appScreen-menu{
         width:450px;
     }
-    #menu-wrapper{
-        margin-top:800px;
+    #actor_wrapper{
+        margin-bottom:400px;
     }
 
 }
