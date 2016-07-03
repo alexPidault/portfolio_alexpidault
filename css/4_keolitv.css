@@ -481,10 +481,10 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
 
 
 .spacer {
-	min-height: 100px;
+    min-height: 100px;
 }
 .spacer.s1 {
-	min-height: 400px;
+    min-height: 400px;
     width: 100%;
 }
 .cont{
@@ -633,13 +633,13 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
         width:83%;
     }
     .blueBackground{
-        padding-bottom: 262px;
-        margin-bottom: -312px;
+        padding-bottom: 280px;
+        margin-bottom: -495px;
     }
     .blue-block{
         width: 904px;
         height: 500px;
-        top: 253px;
+        top: 362px;
         border-radius: 0px 0px 200px;
     }
     .appScreen-detail{
