@@ -691,6 +691,10 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
     .blueBackground-padding{
         padding-bottom: 100px;
     }
+    .separator{
+        width: 100%;
+        height: 1000px;
+    }
 
 }
 
