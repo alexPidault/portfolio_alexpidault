@@ -937,10 +937,6 @@ section.exploringDetail .txt-headLine--first:after{
     position: relative;
     top: -700px;
 }
-
-
-
-
 .cont{
     position: fixed;
     top: 100px;
@@ -961,10 +957,6 @@ section.exploringDetail .txt-headLine--first:after{
     padding-top: 300px;
     top: -109px;
 }
-
-
-
-
 .arrow-up--orange{
     background-image: url(../images/arrow-up--orange.svg);
 }
@@ -1037,7 +1029,7 @@ section.exploringDetail .txt-headLine--first:after{
 
 
 
-@media screen and (max-width: 1445px) and (min-width: 1370px){
+@media screen and (min-width: 1370px) and (max-width: 1445px) {
     .preScreen {
         width: 920px;
         margin: auto;
@@ -1201,7 +1193,6 @@ section.exploringDetail .txt-headLine--first:after{
        height: 1000px;
        top: -157px;
        left: -60%;
-       /* margin-bottom: 106px; */
     }
     .content-container#coachProfile{
         margin-top:100px; 
