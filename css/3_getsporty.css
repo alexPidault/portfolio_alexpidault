@@ -1035,39 +1035,6 @@ section.exploringDetail .txt-headLine--first:after{
 
 
 
-@media  screen and (min-width: 1280px) and (max-width:1440px) {
-    .preScreen {
-        width: 920px;
-        margin: auto;
-        margin-top: 300px;
-    }
-}
-
-@media  screen and (min-width: 1440px) and (max-width:1680px) {
-    .preScreen {
-        width: 920px;
-        margin: auto;
-        margin-top: 300px;
-    }
-    section.branding{
-        margin-top:600px;
-    }
-    .appScreen-detailCourse{
-        width:400px;
-    }
-    .screenDetail--card{
-        width:430px;
-        left:10px;
-        position:relative;
-    }
-    .screenDetail--ticket{
-        width:400px;
-        left:25px;
-        position:relative;
-    }
-    
-}
-
 @media  screen and (min-width: 1680px) {
     .project-picture--1 {
         width: 1269px;
@@ -1282,6 +1249,32 @@ section.exploringDetail .txt-headLine--first:after{
         top: -65px;
     }
 }
+
+@media screen and (max-width: 1445px) and (min-width: 1370px){
+    .preScreen {
+        width: 920px;
+        margin: auto;
+        margin-top: 300px;
+    }
+    section.branding{
+        margin-top:600px;
+    }
+    .appScreen-detailCourse{
+        width:400px;
+    }
+    .screenDetail--card{
+        width:430px;
+        left:10px;
+        position:relative;
+    }
+    .screenDetail--ticket{
+        width:400px;
+        left:25px;
+        position:relative;
+    }
+    
+}
+
 
 
 
