@@ -31,7 +31,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db0f4f', end
 
 }
 .intro-bottom{
-    height: 370px;
+    height: 450px;
 }
 .project-picture--1.is-visible:before{
     height:0px;
@@ -78,9 +78,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db0f4f', end
 }
 .blueBackground {
     background: #3d499b;
-     background: url(../images/keolitv--2/living-room.png) no-repeat 50% 3700px, url(../images/keolitv--2/family.png) no-repeat 50% -150px,-moz-linear-gradient(top, rgba(41,72,118,1) 0%,rgba(10,42,93,1) 100%);
-    background: url(../images/keolitv--2/living-room.png) no-repeat 50% 3700px, url(../images/keolitv--2/family.png) no-repeat 50% -150px,-webkit-linear-gradient(top, rgba(41,72,118,1) 0%,rgba(10,42,93,1) 100%);
-    background: url(../images/keolitv--2/living-room.png) no-repeat 50% 3700px, url(../images/keolitv--2/family.png) no-repeat 50% -150px,linear-gradient(top, rgba(41,72,118,1) 0%,rgba(10,42,93,1) 100%);  
+     background: url(../images/keolitv--2/living-room.png) no-repeat 50% 3700px, url(../images/keolitv--2/family.png) no-repeat 50% 50px,-moz-linear-gradient(top, rgba(41,72,118,1) 0%,rgba(10,42,93,1) 100%);
+    background: url(../images/keolitv--2/living-room.png) no-repeat 50% 3700px, url(../images/keolitv--2/family.png) no-repeat 50% 50px,-webkit-linear-gradient(top, rgba(41,72,118,1) 0%,rgba(10,42,93,1) 100%);
+    background: url(../images/keolitv--2/living-room.png) no-repeat 50% 3700px, url(../images/keolitv--2/family.png) no-repeat 50% 50px,linear-gradient(top, rgba(41,72,118,1) 0%,rgba(10,42,93,1) 100%);  
     background-size: 100%;
 }
 
@@ -343,7 +343,7 @@ section.appScreen--1 .txt-headTitle-container{
     margin-bottom: -250px;
 }
 .blue-block{
-    width: 738px;
+    width: 759px;
     height: 380px;
     background: rgba(10,42,93,1);
     position: relative;
