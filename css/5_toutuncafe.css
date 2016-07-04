@@ -55,15 +55,7 @@ background: linear-gradient(to bottom,  rgba(191,191,191,1) 0%,rgba(191,191,191,
     background-image: url(../images/number-3.png);
 }
 .introResume-container {
-    float: right;
-    width: 420px;
-    padding: 55px;
-    padding-bottom: 170px;
-    position: relative;
     background: #353333;
-    box-shadow: 1px -5px 43px rgba(0,0,0,0.15);
-    border-radius: 3Px;
-    z-index: 2;
 }
 .project-title {
     font-size: 92px;
@@ -727,11 +719,16 @@ section.branding{
 
 
 @media  screen and (min-width: 1680px) {
+    #project-picture {
+        position: relative;
+        top: 150px;
+        
+    }
     .project-picture--1 {
-        background-size: 60%;
+        background-size: 90%;
     }
     section.branding{
-        margin-top: 750px;
+        margin-top: 100px;
     }
     .blackBackground {
         background: rgb(38,35,35);
@@ -746,6 +743,10 @@ section.branding{
      transform: scale(1.2);
      width: 1000px;
      margin: auto;
+    }
+    .preScreen-galery {
+        width: 1300px;
+        height: 800px;
     }
 }
 
