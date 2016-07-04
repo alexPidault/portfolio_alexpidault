@@ -753,6 +753,12 @@ section.branding{
 
 
 
+@media  screen and (min-width: 1680px) {
+    .project-picture--1 {
+        background-size: 60%;
+    }
+}
+
 
 
 
