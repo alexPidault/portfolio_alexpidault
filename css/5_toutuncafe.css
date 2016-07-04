@@ -787,6 +787,10 @@ section.branding{
     #headlineDiscover{
         margin-top: 300px;
     }
+    .separator{
+        width: 100%;
+        height: 300px;
+    }
 }
 
 
