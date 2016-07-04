@@ -617,6 +617,7 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
         width: 1069px;
         height: 1000px;
         left: 15%;
+        background-size: 65%;
     }
     .preScreen-home{
         width:500px;
