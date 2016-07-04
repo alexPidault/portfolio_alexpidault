@@ -796,6 +796,9 @@ section.branding{
         height: 900px;
         right: -10%;
     }
+    #websiteScreen-container--expo{
+       margin-bottom: 160px;
+    }
 }
 
 
