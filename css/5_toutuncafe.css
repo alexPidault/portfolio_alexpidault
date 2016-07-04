@@ -107,7 +107,7 @@ background: linear-gradient(to bottom,  rgba(191,191,191,1) 0%,rgba(191,191,191,
 /* SECTION : PRESCREEN */
 
 .preScreen {
-    margin-top: 130px;
+    margin-top: 350px;
     height: inherit;
 }
 .preScreen-galery {
@@ -723,7 +723,6 @@ section.branding{
 
 @media screen and (min-width: 1370px) and (max-width: 1445px) {
     .preScreen{
-        margin-top: 350px;
         height: 300px;
     }
 }
@@ -733,9 +732,6 @@ section.branding{
         position: relative;
         top: 150px;
         
-    }
-    .preScreen{
-        margin-top: 350px;
     }
     .project-picture--1 {
         background-size: 90%;
