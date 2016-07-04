@@ -1035,7 +1035,13 @@ section.exploringDetail .txt-headLine--first:after{
 
 
 
-
+@media  screen and (min-width: 1280px) and (max-width:1440px) {
+    .preScreen {
+        width: 920px;
+        margin: auto;
+        margin-top: 300px;
+    }
+}
 
 @media  screen and (min-width: 1440px) and (max-width:1680px) {
     .preScreen {

@@ -1327,8 +1327,9 @@ a {
         letter-spacing: 1.9px;
     }
     .introResume-container{
-        width: 455px;
+        width: 430px;
         padding: 65px;
+        padding-bottom: 150px;
     }
     
 } 
