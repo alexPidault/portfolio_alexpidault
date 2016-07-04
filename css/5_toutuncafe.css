@@ -724,6 +724,9 @@ section.branding{
         top: 150px;
         
     }
+    .preScreen{
+        margin-top: 350px;
+    }
     .project-picture--1 {
         background-size: 90%;
     }
