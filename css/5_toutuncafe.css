@@ -721,7 +721,9 @@ section.branding{
 }
 
 
-
+@media screen and (min-width: 1370px) and (max-width: 1445px) {
+    
+}
 
 @media  screen and (min-width: 1680px) {
     #project-picture {
