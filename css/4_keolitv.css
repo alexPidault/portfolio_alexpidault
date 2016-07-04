@@ -667,14 +667,14 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
     }
     .appScreen-detail{
         width: 105%;
-        height: 1090px;
+        height: 1260px;
         top: -30px;
         z-index: 4;
         position: relative;
         background-image: url(../images/keolitv--2/screen-detail-max.png);
         background-size: 100%;
         background-repeat: no-repeat;
-        margin-bottom: -250px;
+        margin-bottom: -350px;
     }
     .appScreen-actor,
     .appScreen-menu{
