@@ -722,7 +722,10 @@ section.branding{
 
 
 @media screen and (min-width: 1370px) and (max-width: 1445px) {
-    
+    .preScreen{
+        margin-top: 350px;
+        height: 300px;
+    }
 }
 
 @media  screen and (min-width: 1680px) {
