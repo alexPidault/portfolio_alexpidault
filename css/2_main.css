@@ -1272,7 +1272,7 @@ a {
 
 
 
-@media  screen and (min-width: 1320px) and (max-width:1440px) {
+@media  screen and (min-width: 1370px) and (max-width:1440px) {
     .text-ap{
         font-size:15px;
         letter-spacing: 2px;
@@ -1410,6 +1410,8 @@ a {
         margin-bottom:140px;
     }
 }
+
+
 @media  screen and (min-width: 1680px) {
     .wrapper {
         max-width: 1250px;
