@@ -336,6 +336,7 @@ section.appScreen--1 .txt-headTitle-container{
     height: 1054px;
     z-index: 4;
     position: relative;
+    top: 30px;
     background-image: url(../images/keolitv--2/screen-detail.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -350,6 +351,7 @@ section.appScreen--1 .txt-headTitle-container{
     left: -200px;
     z-index: 1;
     margin-bottom: -380px;
+    border-radius: 0px 0px 200px;
 }
 .appScreen-actor{
     width: 100%;
