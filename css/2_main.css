@@ -1395,6 +1395,19 @@ a {
         padding-top: 50px;
         padding-bottom: 160px;
     }
+    .sectionTitle-wrapper {
+        left: 6%;
+        top: 41%;
+    }
+    .sectionTitle-wrapper.stick {
+        top: 35%;
+    }
+    .numberProject{
+        margin-bottom:130px;
+    }
+    .project-title{
+        margin-bottom:140px;
+    }
 }
 @media  screen and (min-width: 1680px) {
     .wrapper {
@@ -1523,7 +1536,7 @@ a {
     }
     .sectionTitle-wrapper {
         left: 6%;
-        top: 41%;
+        top: 46%;
     }
     .sectionTitle-wrapper.stick {
         top: 37%;
