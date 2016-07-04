@@ -1337,8 +1337,8 @@ a {
         max-width: 1100px;
     }
     .txt-corp-important {
-        font-size: 20px;
-        line-height: 33px;
+        font-size: 19px;
+        line-height: 32px;
     }
     .txt-corp {
         font-size: 16px;
@@ -1388,6 +1388,12 @@ a {
         -ms-transform: scale(1.1);
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
+    }
+    .introResume-container{
+        width: 450px;
+        padding: 80px;
+        padding-top: 50px;
+        padding-bottom: 160px;
     }
 }
 @media  screen and (min-width: 1680px) {
