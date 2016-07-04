@@ -16,13 +16,6 @@
     position: relative;
     top: 50px;
 }
-@media  screen and (min-width: 1440px) {
-    .project-picture--1 {
-        width: 1069px;
-        height: 1000px;
-        left: 15%;
-    }
-}
 .project-picture--1:before{
     content: "";
     display: block;
@@ -111,15 +104,9 @@ background: linear-gradient(to bottom,  rgba(191,191,191,1) 0%,rgba(191,191,191,
     background: url(../images/toutuncafe--3/background--logo.png) no-repeat 50% 4500px, linear-gradient(top, rgba(38,35,35,1) 0%, rgba(36,33,33,1) 100%);
     background-size: 100%;
 }
-@media  screen and (min-width: 1440px) {
-    .blackBackground {
-    background: rgb(38,35,35);
-     background: url(../images/toutuncafe--3/background--logo.png) no-repeat 50% 4000px,-moz-linear-gradient(top, rgba(38,35,35,1) 0%, rgba(36,33,33,1) 100%);
-    background: url(../images/toutuncafe--3/background--logo.png) no-repeat 50% 4000px,-webkit-linear-gradient(top, rgba(38,35,35,1) 0%, rgba(36,33,33,1) 100%);
-    background: url(../images/toutuncafe--3/background--logo.png) no-repeat 50% 4000px, linear-gradient(top, rgba(38,35,35,1) 0%, rgba(36,33,33,1) 100%);
-    background-size: 100%;
-    }
-}
+
+    
+
 
 
 /* SECTION : PRESCREEN */
@@ -243,11 +230,7 @@ section.branding{
     margin-top: 100px;
     margin-bottom: 500px;
 }
-@media  screen and (min-width: 1440px) {
-    section.branding{
-        margin-top: 750px;
-    }
-}
+
 
 .color-txt{
     width: 200px;
@@ -274,16 +257,6 @@ section.branding{
     float: right;
 }
 
-
-@media  screen and (min-width: 1440px) {
-    .typo-content{
-     -ms-transform: scale(2); /* IE 9 */
-     -webkit-transform: scale(2); /* Safari */
-     transform: scale(1.2);
-     width: 1000px;
-     margin: auto;
-    }
-}
 .typo-number{
     float: left;
     border-color: #4A4747;
@@ -756,6 +729,23 @@ section.branding{
 @media  screen and (min-width: 1680px) {
     .project-picture--1 {
         background-size: 60%;
+    }
+    section.branding{
+        margin-top: 750px;
+    }
+    .blackBackground {
+        background: rgb(38,35,35);
+     background: url(../images/toutuncafe--3/background--logo.png) no-repeat 50% 4000px,-webkit-linear-gradient(rgba(38,35,35,1) 0%, rgba(36,33,33,1) 100%);
+     background: url(../images/toutuncafe--3/background--logo.png) no-repeat 50% 4000px,-o-linear-gradient(rgba(38,35,35,1) 0%, rgba(36,33,33,1) 100%);
+     background: url(../images/toutuncafe--3/background--logo.png) no-repeat 50% 4000px,linear-gradient(rgba(38,35,35,1) 0%, rgba(36,33,33,1) 100%);
+    background-size: 100%;
+    }
+    .typo-content{
+     -ms-transform: scale(1.2); /* IE 9 */
+     -webkit-transform: scale(1.2); /* Safari */
+     transform: scale(1.2);
+     width: 1000px;
+     margin: auto;
     }
 }
 
