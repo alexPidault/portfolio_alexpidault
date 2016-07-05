@@ -1335,6 +1335,9 @@ a {
     .sectionTitle-wrapper{
         display: none;
     }
+    .wrapper{
+        880px;
+    }
 }
 
 @media  screen and (min-width: 1370px) and (max-width:1440px) {
