@@ -538,7 +538,6 @@ section.branding{
     background-image: url(../images/toutuncafe--3/pictureMedia--1.png);
     bottom: 1px;
     left: -3px;
-    /* position: relative; */
 }
 
 
@@ -632,8 +631,11 @@ section.branding{
     background: #202121;
 }
 
-.arrow-up--blue{
-    background-image: url(../images/arrow-up--blue.svg);
+.arrow-up--black{
+    background-image: url(../images/arrow-up--black.svg);
+}
+.arrow-up{
+    box-shadow: 0px 2px 6px rgb(29, 27, 25);
 }
 #toutUnCafe .nextProject-title{
     top: -25px;

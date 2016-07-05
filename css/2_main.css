@@ -1296,10 +1296,40 @@ a {
     overflow: hidden;
 }
 
+.mobile-wrapper{
+    display: none;
+    position: fixed;
+    z-index: 3000;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: white;
+}
+.mobile-container{
+    width: calc(100% - 50px);
+    padding: 25px;
+    margin: auto;
+    padding-top: 30px;
+    height: 88%;
+    overflow: auto;
+}
+.mobile-container .logo-ap{
+   width: 55px;
+   height: 55px;
+   margin-bottom: 30px;
+}
 
 
 
-
+@media  screen and (max-width: 980px) {
+    .mobile-wrapper{
+        display: block;
+    }
+    .holder{
+        display: none;
+    }
+}
 
 
 @media  screen and (min-width: 1370px) and (max-width:1440px) {
@@ -1430,7 +1460,7 @@ a {
         padding-bottom: 160px;
     }
     .sectionTitle-wrapper {
-        left: 6%;
+        left: 4.5%;
         top: 41%;
     }
     .sectionTitle-wrapper.stick {
