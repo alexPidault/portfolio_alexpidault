@@ -1029,13 +1029,17 @@ section.exploringDetail .txt-headLine--first:after{
 
 @media  screen and (min-width: 1440px) and (max-width:1680px) {
     .appScreen-search{
+        
         width: 150%;
         height: 660px;
         left: -50%;
         top: -45px;
     }
+    .appScreen-activity{
+        left: -6px;
+    }
     .orangeLine{
-        left: 20%;
+        left: 18%;
     }
 }
 
