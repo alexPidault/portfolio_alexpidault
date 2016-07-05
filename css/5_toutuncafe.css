@@ -476,6 +476,7 @@ section.branding{
     margin: auto;
     margin-top: 80px;
     position: relative;
+    left: -15px;
     background-image: url(../images/toutuncafe--3/screen--artiste.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -583,7 +584,7 @@ section.branding{
 
  .separator{
     width: 100%;
-    height: 80px;
+    height: 130px;
 }
 
 
