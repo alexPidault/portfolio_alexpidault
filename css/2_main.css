@@ -1336,7 +1336,13 @@ a {
         display: none;
     }
     .wrapper{
-        880px;
+        width:880px;
+    }
+    .preview-txt-container{
+        width:55%;
+    }
+    .preview-picture-container{
+        width: 350px;
     }
 }
 
