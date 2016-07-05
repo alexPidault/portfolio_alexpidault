@@ -552,6 +552,7 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
     position: relative;
     top: -180px;
     margin: auto;
+    z-index: 10000;
 }
 .sliderActivity-header{
     width: 308px;
