@@ -336,7 +336,7 @@ section.appScreen--1 .txt-headTitle-container{
     height: 1054px;
     z-index: 4;
     position: relative;
-    top: 30px;
+    top: -11px;
     background-image: url(../images/keolitv--2/screen-detail.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -408,7 +408,7 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
 
 .blueBackground-2{
     width: 100%;
-    height: 700px;
+    height: 780px;
     background: #0A2C60;
 }
 .blueBackground-padding{
@@ -667,7 +667,7 @@ background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
         border-radius: 0px 0px 500px;
     }
     .appScreen-detail{
-        width: 100%;
+        width: 117%;
         height: 1260px;
         top: -30px;
         z-index: 4;
