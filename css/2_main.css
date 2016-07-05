@@ -1403,7 +1403,10 @@ a {
         top:-10px;
     }
     .preview-txt-container{
-        width:57%;
+        width:52%;
+    }
+    .preview-picture-container{
+        width: 340px;
     }
     .text-ap{
         font-size:15px;
