@@ -1034,6 +1034,9 @@ section.exploringDetail .txt-headLine--first:after{
         left: -50%;
         top: -45px;
     }
+    .orangeLine{
+        left: 20%;
+    }
 }
 
 
